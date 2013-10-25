@@ -1,0 +1,64 @@
+function run_no_fail() {
+	EXEC_NAME=$1
+    PROCESS_CHECK_NAME=${2-$1}
+    WAIT_SECONDS=${3-'5'}
+    
+    if ! ./process-is-running.fn.sh $PROCESS_CHECK_NAME; then 
+		for (( i=1 ; 1; i++ )); do
+			$EXEC_NAME &
+			sleep 0.5
+		
+			if ./process-is-running.fn.sh $PROCESS_CHECK_NAME; then
+				break
+			elif [[ $i == $WAIT_SECONDS ]]; then
+				echo "$EXEC_NAME failed."
+				if [[ x"$opt_fatal" != xno ]]; then
+					echo "Aborting run."
+					exit
+				else
+					break
+				fi
+			fi
+		done
+    fi
+}
+
+function run_if_exist() {
+	NAME=$1
+	shift
+	
+	if command -v ${NAME}; then
+		echo ${NAME} $*
+		${NAME} $*
+	fi
+}
+
+function parseopts() {
+	until [[ $# == 0 ]]; do
+		if [[ $1 == --* ]]; then
+			text=${1:2}
+			val=${text#*=}
+			opt=${text%%=*}
+			outvarname=opt_${opt//-/_}
+			export ${outvarname}=${val}
+			
+			echo "Parsing option: '--${opt}', value: '${val}', ${outvarname}=${!outvarname}" >&2
+		else
+			echo "Bad parameter format '$1', must be --<option-name>[=val]"
+			exit 1
+		fi
+		
+		shift
+	done
+}
+
+parseopts $*
+
+if [[ x"${opt_audio_setup}" != xno ]]; then
+	run_if_exist amixer set Master,0 100%
+	run_if_exist pulseaudio --kill
+	run_no_fail qjackctl
+	run_no_fail ./jack-alsa-out.sh alsa_out
+fi
+
+ruby1.9.1 Source/djgui.rb --config ${opt_config-debug} --server druby://127.0.0.1:41069 --run-server "$@"

@@ -1,0 +1,94 @@
+a
+[EnumerableSubclasses] require: Requiring './transform/export/task_*'
+[EnumerableSubclasses] (2 levels) in require: ./transform/export/task_extract_raw_sound_data
+[EnumerableSubclasses] (2 levels) in require: ./transform/export/task_post_export_album
+[EnumerableSubclasses] (2 levels) in require: ./transform/export/task_source_track
+[EnumerableSubclasses] (2 levels) in require: ./transform/export/task_album_boundary_analysis
+[EnumerableSubclasses] (2 levels) in require: ./transform/export/task_by_program_instance
+[EnumerableSubclasses] (2 levels) in require: ./transform/export/task_track_boundary_analysis
+[SymbolDefaults] <module:SymbolDefaults>: Logging level set to 1.
+[UniqueID] <module:UniqueID>: Logging level set to 1.
+[UniqueIDConfig] <module:UniqueIDConfig>: Logging level set to 1.
+[Viewable] <module:Viewable>: Logging level set to 1.
+[EnumerableSubclasses] require: Requiring 'media/source_file_*'
+[EnumerableSubclasses] (2 levels) in require: media/source_file_flac
+[EnumerableSubclasses] (2 levels) in require: media/source_file_audacity
+[EnumerableSubclasses] (2 levels) in require: media/source_file_wav
+[EnumerableSubclasses] (2 levels) in require: media/source_file_mp3
+[PlatformOS] require: /home/david/git/depot/projects/ruby/auanalysis/autotools/linux/debug/lib/dsound/dsound
+[ViewBase] <module:ViewBase>: Logging level set to 1.
+[ViewAllAttributesCommon] <class:ViewAllAttributesCommon>: Logging level set to 1.
+[Unique] <module:Unique>: Logging level set to 1.
+[EnumerableSubclasses] require: Requiring 'sound_file_*'
+[EnumerableSubclasses] (2 levels) in require: sound_file_audacity_au
+[EnumerableSubclasses] (2 levels) in require: sound_file_audacity
+[EnumerableSubclasses] (2 levels) in require: sound_file_raw
+[EnumerableSubclasses] (2 levels) in require: ./transform/export/task_transcode_track
+[EnumerableSubclasses] (2 levels) in require: ./transform/export/task_export_album
+[EnumerableSubclasses] (2 levels) in require: ./transform/export/task_source_album
+[EnumerableSubclasses] (2 levels) in require: ./transform/export/task_export_track
+[EnumerableSubclasses] (2 levels) in require: ./transform/export/task_export_batch_tracks
+b
+c
+d
+e
+[TaskTrackBoundaryAnalysis] 31870980.initialize: Analyzing '/home/david/recordings/ur-028/A.aup'
+/home/david/depot/projects/ruby/std/tempfile_dlb.rb:200:in `callback': "CLEANUP TMP FILE"
+/home/david/depot/projects/ruby/std/tempfile_dlb.rb:201:in `callback': ["./tmp/boundary_input.6804.0.tmp"]
+/home/david/depot/projects/ruby/std/tempfile_dlb.rb:200:in `callback': "CLEANUP TMP FILE"
+/home/david/depot/projects/ruby/std/tempfile_dlb.rb:201:in `callback': ["./tmp/boundary_transformed.6804.0.tmp"]
+/home/david/git/depot/projects/ruby/auanalysis/track_boundary_analysis.rb:233:in `wavelet_transformed_soundfile': './tmp/boundary_input.6804.0.tmp'
+/home/david/git/depot/projects/ruby/auanalysis/track_boundary_analysis.rb:234:in `wavelet_transformed_soundfile': './tmp/boundary_transformed.6804.0.tmp'
+/home/david/depot/projects/ruby/std/tempfile_dlb.rb:200:in `callback': "CLEANUP TMP FILE"
+/home/david/depot/projects/ruby/std/tempfile_dlb.rb:201:in `callback': ["./tmp/wavelethaar_work.6804.0.tmp"]
+/home/david/git/depot/projects/ruby/auanalysis/track_boundary_analysis.rb:241:in `wavelet_transformed_soundfile': "x"
+/home/david/git/depot/projects/ruby/auanalysis/wavelet.rb:83:in `sfloat': "aa"
+/home/david/git/depot/projects/ruby/auanalysis/wavelet.rb:89:in `sfloat': "cc"
+/home/david/git/depot/projects/ruby/auanalysis/wavelet.rb:93:in `sfloat': "dd"
+/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': iconv will be deprecated in the future, use String#encode instead.
+[SoundFileAudacity::AudacityProject] 32828960.initialize: No suitable class found for XML node 'tags'
+[SoundFileAudacity::WaveClip] 32814080.initialize: No suitable class found for XML node 'envelope'
+[SoundFileAudacity::WaveClip] 32493800.initialize: No suitable class found for XML node 'envelope'
+[SoundFileAudacity::AudacityProject] 31608120.initialize: No suitable class found for XML node 'tags'
+[SoundFileAudacity::WaveClip] 29919740.initialize: No suitable class found for XML node 'envelope'
+[SoundFileAudacity::WaveClip] 33032220.initialize: No suitable class found for XML node 'envelope'
+Please wait: Extracting sound data...
+Wait...
+Done: Extracting sound data (6.11270028 secs)
+/home/david/depot/projects/ruby/std/file_memory_mapped.rb:62:in `open': "c"
+/home/david/depot/projects/ruby/std/file_memory_mapped.rb:67:in `open': "d"
+/home/david/depot/projects/ruby/std/file_memory_mapped.rb:515:in `make_narray': "naa"
+/home/david/depot/projects/ruby/std/file_memory_mapped.rb:516:in `make_narray': 140466884
+/home/david/depot/projects/ruby/std/file_memory_mapped.rb:518:in `make_narray': "nab"
+/home/david/depot/projects/ruby/std/file_memory_mapped.rb:520:in `make_narray': "nac"
+/home/david/depot/projects/ruby/std/file_memory_mapped.rb:522:in `make_narray': "nad"
+/home/david/git/depot/projects/ruby/auanalysis/wavelet.rb:95:in `sfloat': "ee"
+/home/david/git/depot/projects/ruby/auanalysis/wavelet.rb:97:in `sfloat': "ff"
+/home/david/git/depot/projects/ruby/auanalysis/track_boundary_analysis.rb:243:in `wavelet_transformed_soundfile': "y"
+/home/david/git/depot/projects/ruby/auanalysis/track_boundary_analysis.rb:247:in `wavelet_transformed_soundfile': "xa"
+/home/david/git/depot/projects/ruby/auanalysis/track_boundary_analysis.rb:250:in `wavelet_transformed_soundfile': "xb"
+/home/david/git/depot/projects/ruby/auanalysis/track_boundary_analysis.rb:200:in `transform_for_threshold_analysis': "begin threshold"
+Done: Reconstruction (3.475475856 secs)
+Please wait: Track boundary analysis....
+72.38% (Track boundary analysis.)
+Done: Track boundary analysis. (4.058701015 secs)
+/home/david/git/depot/projects/ruby/auanalysis/track_boundary_analysis.rb:205:in `transform_for_threshold_analysis': "end threshold"
+/home/david/depot/projects/ruby/std/file_memory_mapped.rb:33:in `close': "CLOSE 1 './tmp/boundary_transformed.6804.0.tmp'"
+/home/david/depot/projects/ruby/std/tempfile_dlb.rb:200:in `callback': "CLEANUP TMP FILE"
+/home/david/depot/projects/ruby/std/tempfile_dlb.rb:201:in `callback': ["./tmp/boundary_reconstructed.6804.0.tmp"]
+/home/david/depot/projects/ruby/std/tempfile_dlb.rb:200:in `callback': "CLEANUP TMP FILE"
+/home/david/depot/projects/ruby/std/tempfile_dlb.rb:201:in `callback': ["./tmp/wavelethaar_invert_work.6804.0.tmp"]
+[TrackBoundaryAnalysis] 17073120.(2 levels) in analyze: 0.2 at 0.004666666666666667 (track at 0.0)
+[TrackBoundaryAnalysis] 17073120.(2 levels) in analyze: Threshold miss 0.0 at 189.35
+[TrackBoundaryAnalysis] 17073120.(2 levels) in analyze: 0.013333333333333334 at 189.66533333333334 (track at 189.65533333333335)
+[TrackBoundaryAnalysis] 17073120.(2 levels) in analyze: Threshold miss 0.0 at 354.05
+[TrackBoundaryAnalysis] 17073120.(2 levels) in analyze: 0.013333333333333334 at 355.72866666666664 (track at 355.71866666666665)
+[TrackBoundaryAnalysis] 17073120.(2 levels) in analyze: Threshold miss 0.0 at 540.15
+[TrackBoundaryAnalysis] 17073120.(2 levels) in analyze: 0.96 at 544.2086666666667 (track at 544.1986666666667)
+[TrackBoundaryAnalysis] 17073120.(2 levels) in analyze: Threshold miss 0.0 at 728.525
+[TrackBoundaryAnalysis] 17073120.analyze: End of file reached without leadout hit, recording file end as leadout.
+f
+g
+h
+i
+Sun Sep 30 14:38:45 2012

@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{13c196ce-6ba5-4bb6-93a1-3d73dc300b97}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{7318076b-87b3-4659-b75d-76df9530b5fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\AI">
+      <UniqueIdentifier>{500d040c-2130-4213-8480-710e7c70270f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\AI\Goals">
+      <UniqueIdentifier>{9cd5ee95-d043-42c2-8596-0d04a48e77ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{cce329bc-2ecc-4eb0-b763-9a88ae6372e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Dialogs">
+      <UniqueIdentifier>{910575d4-cff5-44cc-886e-c70b95633217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Controls">
+      <UniqueIdentifier>{bed33ff2-3203-4b4f-be3e-be8d1bafe85e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{38f812dd-1e5c-46cb-8094-ffc650c359bc}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DLL Dependencies">
+      <UniqueIdentifier>{b0869204-3dc5-4424-8f86-441583c53399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration Files">
+      <UniqueIdentifier>{9bc69b70-548a-4281-9a7d-335bc4896606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration Files\Local">
+      <UniqueIdentifier>{1578e407-4246-4c2c-9e1b-a461ff9db030}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RSEApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Parallax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Controller.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Hammer.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Head.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Man.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ManAIControl.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Pancake.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PancakeLevel.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PancakeSprite.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PancakeSpriteFX.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Physical.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Projectile.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Wave.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Weapon.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Ai\AI.cpp">
+      <Filter>Source Files\Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Ai\AIGoal.cpp">
+      <Filter>Source Files\Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Ai\AIRanged.cpp">
+      <Filter>Source Files\Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Ai\Goals\AIRTTI.cpp">
+      <Filter>Source Files\Game\AI\Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgDebugAI.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgDebugPancake.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgGame.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgGameHUD.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgTitle.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Controls\UIPancake.cpp">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Controls\UIStateInfo.cpp">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Controls\UIStatusBar.cpp">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RSEApp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parallax.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Controller.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Hammer.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Head.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Man.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ManAIControl.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Pancake.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PancakeLevel.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PancakeSprite.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Physical.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Projectile.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Wave.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Weapon.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ai\AI.h">
+      <Filter>Source Files\Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ai\AIGoal.h">
+      <Filter>Source Files\Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ai\AIRanged.h">
+      <Filter>Source Files\Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ai\Goals\AvoidDisabled.h">
+      <Filter>Source Files\Game\AI\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ai\Goals\BaddyHome.h">
+      <Filter>Source Files\Game\AI\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ai\Goals\Flee.h">
+      <Filter>Source Files\Game\AI\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ai\Goals\Home.h">
+      <Filter>Source Files\Game\AI\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ai\Goals\JumpAttack.h">
+      <Filter>Source Files\Game\AI\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ai\Goals\MoveFromOOB.h">
+      <Filter>Source Files\Game\AI\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ai\Goals\Panic.h">
+      <Filter>Source Files\Game\AI\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ai\Goals\PanicGore.h">
+      <Filter>Source Files\Game\AI\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ai\Goals\Selector.h">
+      <Filter>Source Files\Game\AI\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ai\Goals\Sequencer.h">
+      <Filter>Source Files\Game\AI\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ai\Goals\TargetBased.h">
+      <Filter>Source Files\Game\AI\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ai\Goals\Taunt.h">
+      <Filter>Source Files\Game\AI\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ai\Goals\WeaponAttack.h">
+      <Filter>Source Files\Game\AI\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgDebugAI.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgDebugPancake.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgGame.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgGameHUD.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgTitle.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\UIPancake.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\UIStateInfo.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\UIStatusBar.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Pancake Bros.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PancakeBros.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\cfg\ai.ini">
+      <Filter>Configuration Files</Filter>
+    </None>
+    <None Include="..\cfg\animations.ini">
+      <Filter>Configuration Files</Filter>
+    </None>
+    <None Include="..\cfg\game.ini">
+      <Filter>Configuration Files</Filter>
+    </None>
+    <None Include="..\cfg\levels.ini">
+      <Filter>Configuration Files</Filter>
+    </None>
+    <None Include="..\cfg\materials.ini">
+      <Filter>Configuration Files</Filter>
+    </None>
+    <None Include="..\cfg\music.ini">
+      <Filter>Configuration Files</Filter>
+    </None>
+    <None Include="..\cfg\musicmanager.ini">
+      <Filter>Configuration Files</Filter>
+    </None>
+    <None Include="..\cfg\options.ini">
+      <Filter>Configuration Files</Filter>
+    </None>
+    <None Include="..\cfg\parallax.ini">
+      <Filter>Configuration Files</Filter>
+    </None>
+    <None Include="..\cfg\particles.ini">
+      <Filter>Configuration Files</Filter>
+    </None>
+    <None Include="..\cfg\spritefx.ini">
+      <Filter>Configuration Files</Filter>
+    </None>
+    <None Include="..\cfg\ui.ini">
+      <Filter>Configuration Files</Filter>
+    </None>
+    <None Include="..\cfg\uistyles.ini">
+      <Filter>Configuration Files</Filter>
+    </None>
+    <None Include="..\local\levels.ini">
+      <Filter>Configuration Files\Local</Filter>
+    </None>
+    <None Include="..\local\options.ini">
+      <Filter>Configuration Files\Local</Filter>
+    </None>
+    <None Include="..\local\ui.ini">
+      <Filter>Configuration Files\Local</Filter>
+    </None>
+    <None Include="..\documents\bugs.rtf" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\rse engine\rse1\release\RSE1.dll">
+      <Filter>DLL Dependencies</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\RSE Engine\Rse1\debug\RSE1_d.dll">
+      <Filter>DLL Dependencies</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\standard\msvc\Windows\release\Standard.dll">
+      <Filter>DLL Dependencies</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\standard\msvc\Windows\debug\Standard_d.dll">
+      <Filter>DLL Dependencies</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		634AEBC311ECB77E0093DD99 /* MIDIDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 634AEBB711ECB77E0093DD99 /* MIDIDevice.cpp */; };
+		634AEBC511ECB77E0093DD99 /* MIDIDeviceIn.mm in Sources */ = {isa = PBXBuildFile; fileRef = 634AEBBB11ECB77E0093DD99 /* MIDIDeviceIn.mm */; };
+		634AEBC611ECB77E0093DD99 /* MIDIDeviceOut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 634AEBBC11ECB77E0093DD99 /* MIDIDeviceOut.cpp */; };
+		634AEBC811ECB77E0093DD99 /* PlatformMIDIDevices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 634AEBC011ECB77E0093DD99 /* PlatformMIDIDevices.cpp */; };
+		634AEC0311ECB8E00093DD99 /* Standard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634AEC0211ECB8E00093DD99 /* Standard.framework */; };
+		637E849B0CBE7B9500A851C3 /* MIDIDevices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63B2BDC30CB885CF00DBA357 /* MIDIDevices.cpp */; };
+		637E849C0CBE7B9500A851C3 /* interface_wrap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63B2C0950CB8A55700DBA357 /* interface_wrap.cpp */; };
+		637E84A00CBE7BB200A851C3 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B2BE360CB88C4E00DBA357 /* CoreMIDI.framework */; };
+		637E84A10CBE7BB200A851C3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		63E0E7A50D0FDE820039888C /* libruby.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E0E7A40D0FDE7C0039888C /* libruby.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		634AEBFF11ECB8B90093DD99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63E0E7B70D0FE3740039888C /* Standard.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216 /* Standard.framework */;
+			remoteInfo = Standard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* midiinterface_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = midiinterface_Prefix.pch; sourceTree = "<group>"; };
+		63306D6F0CB4762A0018988C /* interface.i */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.interfacer; name = interface.i; path = ../interface.i; sourceTree = SOURCE_ROOT; };
+		63306D810CB481710018988C /* IMIDIDeviceIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMIDIDeviceIn.h; path = ../IMIDIDeviceIn.h; sourceTree = SOURCE_ROOT; };
+		63306DAD0CB4A86C0018988C /* IMIDIDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IMIDIDevice.h; path = ../IMIDIDevice.h; sourceTree = SOURCE_ROOT; };
+		634AEBB711ECB77E0093DD99 /* MIDIDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MIDIDevice.cpp; sourceTree = "<group>"; };
+		634AEBB811ECB77E0093DD99 /* MIDIDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIDevice.h; sourceTree = "<group>"; };
+		634AEBBA11ECB77E0093DD99 /* MIDIDeviceIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIDeviceIn.h; sourceTree = "<group>"; };
+		634AEBBB11ECB77E0093DD99 /* MIDIDeviceIn.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MIDIDeviceIn.mm; sourceTree = "<group>"; };
+		634AEBBC11ECB77E0093DD99 /* MIDIDeviceOut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MIDIDeviceOut.cpp; sourceTree = "<group>"; };
+		634AEBBD11ECB77E0093DD99 /* MIDIDeviceOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIDeviceOut.h; sourceTree = "<group>"; };
+		634AEBC011ECB77E0093DD99 /* PlatformMIDIDevices.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlatformMIDIDevices.cpp; sourceTree = "<group>"; };
+		634AEBC111ECB77E0093DD99 /* PlatformMIDIDevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformMIDIDevices.h; sourceTree = "<group>"; };
+		634AEBC211ECB77E0093DD99 /* pch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pch.h; sourceTree = "<group>"; };
+		634AEC0211ECB8E00093DD99 /* Standard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Standard.framework; path = ../../../../Common/Standard/xcode/build/Debug/Standard.framework; sourceTree = SOURCE_ROOT; };
+		637E848C0CBE7B2C00A851C3 /* midi.bundle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; includeInIndex = 0; path = midi.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B2BDC30CB885CF00DBA357 /* MIDIDevices.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MIDIDevices.cpp; path = ../MIDIDevices.cpp; sourceTree = SOURCE_ROOT; };
+		63B2BDC40CB885CF00DBA357 /* MIDIDevices.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MIDIDevices.h; path = ../MIDIDevices.h; sourceTree = SOURCE_ROOT; };
+		63B2BE360CB88C4E00DBA357 /* CoreMIDI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = CoreMIDI.framework; path = /System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<absolute>"; };
+		63B2C0950CB8A55700DBA357 /* interface_wrap.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = interface_wrap.cpp; sourceTree = "<group>"; };
+		63E0E7A40D0FDE7C0039888C /* libruby.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; name = libruby.dylib; path = SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/libruby.dylib; sourceTree = DEVELOPER_DIR; };
+		63E0E7B70D0FE3740039888C /* Standard.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Standard.xcodeproj; path = ../../../../Common/Standard/xcode/Standard.xcodeproj; sourceTree = SOURCE_ROOT; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		637E848A0CBE7B2C00A851C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E0E7A50D0FDE820039888C /* libruby.dylib in Frameworks */,
+				637E84A00CBE7BB200A851C3 /* CoreMIDI.framework in Frameworks */,
+				637E84A10CBE7BB200A851C3 /* Cocoa.framework in Frameworks */,
+				634AEC0311ECB8E00093DD99 /* Standard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				637E848C0CBE7B2C00A851C3 /* midi.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* midiinterface */ = {
+			isa = PBXGroup;
+			children = (
+				63E0E7B70D0FE3740039888C /* Standard.xcodeproj */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = midiinterface;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				634AEBB511ECB77E0093DD99 /* OSX */,
+				63B2BDC30CB885CF00DBA357 /* MIDIDevices.cpp */,
+				63B2BDC40CB885CF00DBA357 /* MIDIDevices.h */,
+				63306D810CB481710018988C /* IMIDIDeviceIn.h */,
+				63306DAD0CB4A86C0018988C /* IMIDIDevice.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				634AEC0211ECB8E00093DD99 /* Standard.framework */,
+				63E0E7A40D0FDE7C0039888C /* libruby.dylib */,
+				63B2BE360CB88C4E00DBA357 /* CoreMIDI.framework */,
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				63B2C0950CB8A55700DBA357 /* interface_wrap.cpp */,
+				63306D6F0CB4762A0018988C /* interface.i */,
+				32DBCF5E0370ADEE00C91783 /* midiinterface_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		634AEBB511ECB77E0093DD99 /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+				634AEBB611ECB77E0093DD99 /* midiinterface */,
+				634AEBC211ECB77E0093DD99 /* pch.h */,
+			);
+			name = OSX;
+			path = ../OSX;
+			sourceTree = SOURCE_ROOT;
+		};
+		634AEBB611ECB77E0093DD99 /* midiinterface */ = {
+			isa = PBXGroup;
+			children = (
+				634AEBB711ECB77E0093DD99 /* MIDIDevice.cpp */,
+				634AEBB811ECB77E0093DD99 /* MIDIDevice.h */,
+				634AEBBA11ECB77E0093DD99 /* MIDIDeviceIn.h */,
+				634AEBBB11ECB77E0093DD99 /* MIDIDeviceIn.mm */,
+				634AEBBC11ECB77E0093DD99 /* MIDIDeviceOut.cpp */,
+				634AEBBD11ECB77E0093DD99 /* MIDIDeviceOut.h */,
+				634AEBC011ECB77E0093DD99 /* PlatformMIDIDevices.cpp */,
+				634AEBC111ECB77E0093DD99 /* PlatformMIDIDevices.h */,
+			);
+			path = midiinterface;
+			sourceTree = "<group>";
+		};
+		634AEBFC11ECB8B90093DD99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				634AEC0011ECB8B90093DD99 /* Standard.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		637E848B0CBE7B2C00A851C3 /* obj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637E84FA0CBE7DDB00A851C3 /* Build configuration list for PBXNativeTarget "obj" */;
+			buildPhases = (
+				637E84910CBE7B4D00A851C3 /* ShellScript */,
+				637E84890CBE7B2C00A851C3 /* Sources */,
+				637E848A0CBE7B2C00A851C3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = obj;
+			productName = obj;
+			productReference = 637E848C0CBE7B2C00A851C3 /* midi.bundle */;
+			productType = "com.apple.product-type.objfile";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "midiinterface" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* midiinterface */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 634AEBFC11ECB8B90093DD99 /* Products */;
+					ProjectRef = 63E0E7B70D0FE3740039888C /* Standard.xcodeproj */;
+				},
+			);
+			projectRoot = ..;
+			targets = (
+				637E848B0CBE7B2C00A851C3 /* obj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		634AEC0011ECB8B90093DD99 /* Standard.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Standard.framework;
+			remoteRef = 634AEBFF11ECB8B90093DD99 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		637E84910CBE7B4D00A851C3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				../interface.i,
+			);
+			outputPaths = (
+				interface_wrap.cpp,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "swig -c++ -ruby -o \"interface_wrap.cpp\" ../interface.i";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		637E84890CBE7B2C00A851C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637E849B0CBE7B9500A851C3 /* MIDIDevices.cpp in Sources */,
+				637E849C0CBE7B9500A851C3 /* interface_wrap.cpp in Sources */,
+				634AEBC311ECB77E0093DD99 /* MIDIDevice.cpp in Sources */,
+				634AEBC511ECB77E0093DD99 /* MIDIDeviceIn.mm in Sources */,
+				634AEBC611ECB77E0093DD99 /* MIDIDeviceOut.cpp in Sources */,
+				634AEBC811ECB77E0093DD99 /* PlatformMIDIDevices.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "../../../../Common/Standard/xcode/$(CONFIGURATION)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/usr/lib/ruby/1.8/universal-darwin9.0";
+				LIBRARY_SEARCH_PATHS = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/lib/;
+				PREBINDING = NO;
+				PRODUCT_NAME = midiinterface;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				USER_HEADER_SEARCH_PATHS = "../OSX ..";
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "../../../../Common/Standard/xcode/$(CONFIGURATION)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/usr/lib/ruby/1.8/universal-darwin9.0";
+				LIBRARY_SEARCH_PATHS = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/lib/;
+				PREBINDING = NO;
+				PRODUCT_NAME = midiinterface;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				USER_HEADER_SEARCH_PATHS = "../OSX ..";
+			};
+			name = Release;
+		};
+		637E84FB0CBE7DDB00A851C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_EXTENSION = bundle;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Common/Standard/xcode/build/Debug\"",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../Common/Standard/OSX/Debug\"";
+				INSTALL_PATH = /usr/local/lib;
+				KEEP_PRIVATE_EXTERNS = NO;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACH_O_TYPE = mh_bundle;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+			};
+			name = Debug;
+		};
+		637E84FC0CBE7DDB00A851C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				EXECUTABLE_EXTENSION = bundle;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Common/Standard/xcode/build/Debug\"",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../Common/Standard/OSX/Debug\"";
+				INSTALL_PATH = /usr/local/lib;
+				KEEP_PRIVATE_EXTERNS = NO;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACH_O_TYPE = mh_bundle;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		637F26440D8BD61A00C29C57 /* Release-Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "../../../../Common/Standard/xcode/$(CONFIGURATION)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = YES;
+				HEADER_SEARCH_PATHS = "/usr/lib/ruby/1.8/universal-darwin9.0";
+				LIBRARY_SEARCH_PATHS = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/lib/;
+				PREBINDING = NO;
+				PRODUCT_NAME = midiinterface;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				USER_HEADER_SEARCH_PATHS = "../OSX ..";
+			};
+			name = "Release-Profile";
+		};
+		637F26450D8BD61A00C29C57 /* Release-Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				EXECUTABLE_EXTENSION = bundle;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Common/Standard/xcode/build/Debug\"",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../Common/Standard/OSX/Debug\"";
+				INSTALL_PATH = /usr/local/lib;
+				KEEP_PRIVATE_EXTERNS = NO;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACH_O_TYPE = mh_bundle;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				ZERO_LINK = NO;
+			};
+			name = "Release-Profile";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "midiinterface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+				637F26440D8BD61A00C29C57 /* Release-Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637E84FA0CBE7DDB00A851C3 /* Build configuration list for PBXNativeTarget "obj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637E84FB0CBE7DDB00A851C3 /* Debug */,
+				637E84FC0CBE7DDB00A851C3 /* Release */,
+				637F26450D8BD61A00C29C57 /* Release-Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

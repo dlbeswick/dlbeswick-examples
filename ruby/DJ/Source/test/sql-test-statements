@@ -1,0 +1,3 @@
+select * from relationaldbtestapp;
+select * from "uniquehost::uniqueregistry!relationaldbtestapp";
+select * from relationaldbtestrecord;

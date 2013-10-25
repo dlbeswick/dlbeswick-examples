@@ -1,0 +1,12 @@
+Index: swig/shared/control_with_items.i
+===================================================================
+--- swig/shared/control_with_items.i	(revision 2115)
++++ swig/shared/control_with_items.i	(working copy)
+@@ -13,6 +13,7 @@
+ %feature("nodirector") *::GetClientObject(int n) const;
+ %ignore *::SetClientObject(int  n, wxClientData * data);
+ %feature("nodirector") *::SetClientObject(int  n, wxClientData * data);
++%feature("nodirector") *::GetCount() const;
+ 
+ %{
+   extern swig_class cWxControlWithItems;

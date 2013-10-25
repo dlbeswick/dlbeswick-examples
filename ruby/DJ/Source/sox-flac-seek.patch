@@ -1,0 +1,22 @@
+Index: src/flac.c
+===================================================================
+RCS file: /cvsroot/sox/sox/src/flac.c,v
+retrieving revision 1.73
+diff -r1.73 flac.c
+310c310,311
+<   p->decoded_samples = lsx_malloc(sox_globals.bufsiz * sizeof(FLAC__int32));
+---
+>   p->number_of_samples = sox_globals.bufsiz;
+>   p->decoded_samples = lsx_malloc(p->number_of_samples * sizeof(FLAC__int32));
+444c445,447
+<   for (i = 0; i < len; ++i) {
+---
+>   unsigned num_samples_to_process = min(len, p->number_of_samples);
+> 
+>   for (i = 0; i < num_samples_to_process; ++i) {
+464,465c467,468
+<   FLAC__stream_encoder_process_interleaved(p->encoder, p->decoded_samples, (unsigned) len / ft->signal.channels);
+<   return FLAC__stream_encoder_get_state(p->encoder) == FLAC__STREAM_ENCODER_OK ? len : 0;
+---
+>   FLAC__stream_encoder_process_interleaved(p->encoder, p->decoded_samples, (unsigned) num_samples_to_process / ft->signal.channels);
+>   return FLAC__stream_encoder_get_state(p->encoder) == FLAC__STREAM_ENCODER_OK ? num_samples_to_process : 0;

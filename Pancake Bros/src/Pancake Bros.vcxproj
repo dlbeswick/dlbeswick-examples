@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4DF6D0A1-D060-49BD-8CBD-FB1F9FCF165C}</ProjectGuid>
+    <RootNamespace>Pancake Bros</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccAuxPath />
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\build\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\build\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/EHa /vmg %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\..\..\api;.;..\..\rse engine\rse1\src;..\..\common\standard\src;..\..\common\standard\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)Pancake Bros.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>
+      </AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc70.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3d8.lib;d3dx8.lib;winmm.lib;dinput8.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <OutputFile>$(OutDir)Pancake Bros.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>libci.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>../$(ProjectName)_d.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <TypeLibraryName>.\..\build\Debug/Pancake Bros.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/EHa /vmg %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\..\..\api;.;..\..\rse engine\rse1\src;..\..\common\standard\src;..\..\common\standard\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)Pancake Bros.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>
+      </AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc70.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/FIXED:no %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3d8.lib;d3dx8.lib;winmm.lib;dinput8.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Pancake Bros.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>libci.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>../$(ProjectName).pdb</ProgramDatabaseFile>
+      <StripPrivateSymbols>$(ProjectName)</StripPrivateSymbols>
+      <GenerateMapFile>false</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <TypeLibraryName>.\..\build\Release/Pancake Bros.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="RSEApp.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Parallax.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Game\Controller.cpp" />
+    <ClCompile Include="Game\Game.cpp" />
+    <ClCompile Include="Game\Hammer.cpp" />
+    <ClCompile Include="Game\Head.cpp" />
+    <ClCompile Include="Game\Man.cpp" />
+    <ClCompile Include="Game\ManAIControl.cpp" />
+    <ClCompile Include="Game\Pancake.cpp" />
+    <ClCompile Include="Game\PancakeLevel.cpp" />
+    <ClCompile Include="Game\PancakeSprite.cpp" />
+    <ClCompile Include="Game\PancakeSpriteFX.cpp" />
+    <ClCompile Include="Game\Physical.cpp" />
+    <ClCompile Include="Game\Player.cpp" />
+    <ClCompile Include="Game\Projectile.cpp" />
+    <ClCompile Include="Game\Wave.cpp" />
+    <ClCompile Include="Game\Weapon.cpp" />
+    <ClCompile Include="Game\Ai\AI.cpp" />
+    <ClCompile Include="Game\Ai\AIGoal.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="Game\Ai\AIRanged.cpp" />
+    <ClCompile Include="Game\Ai\Goals\AIRTTI.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgDebugAI.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgDebugPancake.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgGame.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgGameHUD.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgTitle.cpp" />
+    <ClCompile Include="Ui\Controls\UIPancake.cpp" />
+    <ClCompile Include="Ui\Controls\UIStateInfo.cpp" />
+    <ClCompile Include="Ui\Controls\UIStatusBar.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RSEApp.h" />
+    <ClInclude Include="Parallax.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Game\Controller.h" />
+    <ClInclude Include="Game\Game.h" />
+    <ClInclude Include="Game\Hammer.h" />
+    <ClInclude Include="Game\Head.h" />
+    <ClInclude Include="Game\Man.h" />
+    <ClInclude Include="Game\ManAIControl.h" />
+    <ClInclude Include="Game\Pancake.h" />
+    <ClInclude Include="Game\PancakeLevel.h" />
+    <ClInclude Include="Game\PancakeSprite.h" />
+    <ClInclude Include="Game\Physical.h" />
+    <ClInclude Include="Game\Player.h" />
+    <ClInclude Include="Game\Projectile.h" />
+    <ClInclude Include="Game\Wave.h" />
+    <ClInclude Include="Game\Weapon.h" />
+    <ClInclude Include="Game\Ai\AI.h" />
+    <ClInclude Include="Game\Ai\AIGoal.h" />
+    <ClInclude Include="Game\Ai\AIRanged.h" />
+    <ClInclude Include="Game\Ai\Goals\AvoidDisabled.h" />
+    <ClInclude Include="Game\Ai\Goals\BaddyHome.h" />
+    <ClInclude Include="Game\Ai\Goals\Flee.h" />
+    <ClInclude Include="Game\Ai\Goals\Home.h" />
+    <ClInclude Include="Game\Ai\Goals\JumpAttack.h" />
+    <ClInclude Include="Game\Ai\Goals\MoveFromOOB.h" />
+    <ClInclude Include="Game\Ai\Goals\Panic.h" />
+    <ClInclude Include="Game\Ai\Goals\PanicGore.h" />
+    <ClInclude Include="Game\Ai\Goals\Selector.h" />
+    <ClInclude Include="Game\Ai\Goals\Sequencer.h" />
+    <ClInclude Include="Game\Ai\Goals\TargetBased.h" />
+    <ClInclude Include="Game\Ai\Goals\Taunt.h" />
+    <ClInclude Include="Game\Ai\Goals\WeaponAttack.h" />
+    <ClInclude Include="Ui\Dialogs\DlgDebugAI.h" />
+    <ClInclude Include="Ui\Dialogs\DlgDebugPancake.h" />
+    <ClInclude Include="Ui\Dialogs\DlgGame.h" />
+    <ClInclude Include="Ui\Dialogs\DlgGameHUD.h" />
+    <ClInclude Include="Ui\Dialogs\DlgTitle.h" />
+    <ClInclude Include="Ui\Controls\UIPancake.h" />
+    <ClInclude Include="Ui\Controls\UIStateInfo.h" />
+    <ClInclude Include="Ui\Controls\UIStatusBar.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Pancake Bros.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PancakeBros.ICO" />
+    <CustomBuild Include="..\..\rse engine\rse1\release\RSE1.dll">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Copying %(Filename)%(Extension)...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy /y "%(FullPath)" "$(OutDir)%(Filename)%(Extension)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)%(Filename)%(Extension);%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\RSE Engine\Rse1\debug\RSE1_d.dll">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Copying %(Filename)%(Extension)...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy /y "%(FullPath)" "$(OutDir)%(Filename)%(Extension)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)%(Filename)%(Extension);%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\standard\msvc\Windows\release\Standard.dll">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Copying %(Filename)%(Extension)...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy /y "%(FullPath)" "$(OutDir)%(Filename)%(Extension)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)%(Filename)%(Extension);%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\standard\msvc\Windows\debug\Standard_d.dll">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Copying %(Filename)%(Extension)...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy /y "%(FullPath)" "$(OutDir)%(Filename)%(Extension)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)%(Filename)%(Extension);%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="..\cfg\ai.ini" />
+    <None Include="..\cfg\animations.ini" />
+    <None Include="..\cfg\game.ini" />
+    <None Include="..\cfg\levels.ini" />
+    <None Include="..\cfg\materials.ini" />
+    <None Include="..\cfg\music.ini" />
+    <None Include="..\cfg\musicmanager.ini" />
+    <None Include="..\cfg\options.ini" />
+    <None Include="..\cfg\parallax.ini" />
+    <None Include="..\cfg\particles.ini" />
+    <None Include="..\cfg\spritefx.ini" />
+    <None Include="..\cfg\ui.ini" />
+    <None Include="..\cfg\uistyles.ini" />
+    <None Include="..\local\levels.ini" />
+    <None Include="..\local\options.ini" />
+    <None Include="..\local\ui.ini" />
+    <None Include="..\documents\bugs.rtf" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\RSE Engine\RSE1\src\RSE\RSE1.vcxproj">
+      <Project>{bd0d49a2-d096-4a0a-9869-4499ab5090bd}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Standard\msvc\Standard.vcxproj">
+      <Project>{2e78289f-5146-4b49-81c3-8a9255523922}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

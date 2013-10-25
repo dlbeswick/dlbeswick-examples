@@ -1,0 +1,4 @@
+apt://universe/libid3tag0-dev
+apt://universe/swig2.0
+apt://universe/ruby1.9.1-dev
+Common/Standard

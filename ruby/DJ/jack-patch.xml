@@ -1,0 +1,46 @@
+<!DOCTYPE patchbay>
+<patchbay version="0.3.9" name="jack-patch">
+ <output-sockets>
+  <socket exclusive="off" client="dj" type="jack-audio" name="DJ Master">
+   <plug>out_0</plug>
+   <plug>out_1</plug>
+  </socket>
+  <socket exclusive="off" client="dj" type="jack-audio" name="DJ Monitor">
+   <plug>out_2</plug>
+   <plug>out_3</plug>
+  </socket>
+  <socket exclusive="off" client="alsa_pcm" type="jack-midi" name="BCR">
+   <plug>BCR[0-9]+/midi_capture_1</plug>
+   <plug>in-hw-[0-9]-[0-9]-[0-9]-BCR[0-9]+-MIDI-1</plug>
+  </socket>
+  <socket exclusive="off" client="system" type="jack-midi" name="bcr2">
+   <plug>midi_capture_.*</plug>
+  </socket>
+ </output-sockets>
+ <input-sockets>
+  <socket exclusive="off" client="system" type="jack-audio" name="Speakers">
+   <plug>playback_1</plug>
+   <plug>playback_2</plug>
+  </socket>
+  <socket exclusive="off" client="system" type="jack-audio" name="Headphone jack">
+   <plug>playback_3</plug>
+   <plug>playback_4</plug>
+  </socket>
+  <socket exclusive="off" client="alsa_out" type="jack-audio" name="alsa-out">
+   <plug>playback_1</plug>
+   <plug>playback_2</plug>
+  </socket>
+  <socket exclusive="off" client="dj-01" type="jack-midi" name="DJ Midi-in">
+   <plug>JACK MIDI In</plug>
+  </socket>
+ </input-sockets>
+ <slots/>
+ <cables>
+  <cable output="DJ Master" input="Speakers" type="jack-audio"/>
+  <cable output="DJ Master" input="Headphone jack" type="jack-audio"/>
+  <cable output="DJ Monitor" input="alsa-out" type="jack-audio"/>
+  <cable output="BCR" input="DJ Midi-in" type="jack-midi"/>
+  <cable output="bcr2" input="DJ Midi-in" type="jack-midi"/>
+ </cables>
+</patchbay>
+

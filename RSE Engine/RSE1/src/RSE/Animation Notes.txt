@@ -1,0 +1,12 @@
+Each mesh has a number of animations associated with it (walk, run, shoot)
+Each animation affects a number of bones
+The animation for each bone has a variable number of keys
+
+BoneAnim
+	Keys for bone
+
+Animation
+	Set of boneanims
+
+Animation controller
+	Set of animations

@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		634AECE011ECC4390093DD99 /* Standard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634AECDF11ECC4390093DD99 /* Standard.framework */; };
+		6382AB050D16319F008262E7 /* libruby.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6382AB040D16317E008262E7 /* libruby.dylib */; };
+		63FF60040CBEFFA10086E9C9 /* interface_wrap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63FF60030CBEFFA10086E9C9 /* interface_wrap.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		634AECB811ECC2620093DD99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63A52E800D4D73730073776A /* Standard.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = Standard;
+		};
+		634AECBA11ECC2690093DD99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63A52E800D4D73730073776A /* Standard.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = Standard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		634AECDF11ECC4390093DD99 /* Standard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Standard.framework; path = ../../../../Common/Standard/xcode/build/Debug/Standard.framework; sourceTree = SOURCE_ROOT; };
+		6382AB040D16317E008262E7 /* libruby.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; name = libruby.dylib; path = SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/libruby.dylib; sourceTree = DEVELOPER_DIR; };
+		63A52E800D4D73730073776A /* Standard.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Standard.xcodeproj; path = ../../../../Common/Standard/xcode/Standard.xcodeproj; sourceTree = SOURCE_ROOT; };
+		63FF5FE70CBEFE610086E9C9 /* interface.i */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.interfacer; name = interface.i; path = ../interface.i; sourceTree = SOURCE_ROOT; };
+		63FF5FF60CBEFF3D0086E9C9 /* timer.bundle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.objfile"; includeInIndex = 0; path = timer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		63FF60030CBEFFA10086E9C9 /* interface_wrap.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = interface_wrap.cpp; sourceTree = "<group>"; };
+		63FF60440CBF04840086E9C9 /* libid3tag.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libid3tag.dylib; path = /usr/local/lib/libid3tag.dylib; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63FF5FF40CBEFF3D0086E9C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6382AB050D16319F008262E7 /* libruby.dylib in Frameworks */,
+				634AECE011ECC4390093DD99 /* Standard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		634AECB511ECC2620093DD99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				634AECB911ECC2620093DD99 /* Standard.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63FF5FDA0CBEFDB40086E9C9 = {
+			isa = PBXGroup;
+			children = (
+				634AECDF11ECC4390093DD99 /* Standard.framework */,
+				63A52E800D4D73730073776A /* Standard.xcodeproj */,
+				63FF60440CBF04840086E9C9 /* libid3tag.dylib */,
+				6382AB040D16317E008262E7 /* libruby.dylib */,
+				63FF60030CBEFFA10086E9C9 /* interface_wrap.cpp */,
+				63FF5FE70CBEFE610086E9C9 /* interface.i */,
+				63FF5FEF0CBEFE880086E9C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63FF5FEF0CBEFE880086E9C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63FF5FF60CBEFF3D0086E9C9 /* timer.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63FF5FF50CBEFF3D0086E9C9 /* bundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63FF5FFB0CBEFF6F0086E9C9 /* Build configuration list for PBXNativeTarget "bundle" */;
+			buildPhases = (
+				63FF5FF90CBEFF510086E9C9 /* ShellScript */,
+				63FF5FF30CBEFF3D0086E9C9 /* Sources */,
+				63FF5FF40CBEFF3D0086E9C9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				634AECBB11ECC2690093DD99 /* PBXTargetDependency */,
+			);
+			name = bundle;
+			productName = bundle;
+			productReference = 63FF5FF60CBEFF3D0086E9C9 /* timer.bundle */;
+			productType = "com.apple.product-type.objfile";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63FF5FDC0CBEFDB40086E9C9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 63FF5FDD0CBEFDB40086E9C9 /* Build configuration list for PBXProject "timer" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 0;
+			mainGroup = 63FF5FDA0CBEFDB40086E9C9;
+			productRefGroup = 63FF5FEF0CBEFE880086E9C9 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 634AECB511ECC2620093DD99 /* Products */;
+					ProjectRef = 63A52E800D4D73730073776A /* Standard.xcodeproj */;
+				},
+			);
+			projectRoot = ..;
+			targets = (
+				63FF5FF50CBEFF3D0086E9C9 /* bundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		634AECB911ECC2620093DD99 /* Standard.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Standard.framework;
+			remoteRef = 634AECB811ECC2620093DD99 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63FF5FF90CBEFF510086E9C9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				../interface.i,
+			);
+			outputPaths = (
+				interface_wrap.cpp,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "swig -c++ -ruby -o \"interface_wrap.cpp\" ../interface.i";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63FF5FF30CBEFF3D0086E9C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FF60040CBEFFA10086E9C9 /* interface_wrap.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		634AECBB11ECC2690093DD99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Standard;
+			targetProxy = 634AECBA11ECC2690093DD99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		637F265E0D8BD65B00C29C57 /* Release-Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "../../../../Common/Standard/xcode/$(CONFIGURATION)";
+				GENERATE_PROFILING_CODE = YES;
+				HEADER_SEARCH_PATHS = "/usr/lib/ruby/1.8/universal-darwin9.0";
+				LIBRARY_SEARCH_PATHS = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/;
+			};
+			name = "Release-Profile";
+		};
+		637F265F0D8BD65B00C29C57 /* Release-Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				EXECUTABLE_EXTENSION = bundle;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Common/Standard/xcode/build/Debug\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				KEEP_PRIVATE_EXTERNS = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib\"",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACH_O_TYPE = mh_bundle;
+				PREBINDING = NO;
+				PRODUCT_NAME = timer;
+				ZERO_LINK = NO;
+			};
+			name = "Release-Profile";
+		};
+		63FF5FDE0CBEFDB40086E9C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "../../../../Common/Standard/xcode/$(CONFIGURATION)";
+				HEADER_SEARCH_PATHS = "/usr/lib/ruby/1.8/universal-darwin9.0";
+				LIBRARY_SEARCH_PATHS = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/;
+			};
+			name = Debug;
+		};
+		63FF5FDF0CBEFDB40086E9C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "../../../../Common/Standard/xcode/$(CONFIGURATION)";
+				HEADER_SEARCH_PATHS = "/usr/lib/ruby/1.8/universal-darwin9.0";
+				LIBRARY_SEARCH_PATHS = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/;
+			};
+			name = Release;
+		};
+		63FF5FFC0CBEFF6F0086E9C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_EXTENSION = bundle;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Common/Standard/xcode/build/Debug\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				KEEP_PRIVATE_EXTERNS = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib\"",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACH_O_TYPE = mh_bundle;
+				PREBINDING = NO;
+				PRODUCT_NAME = timer;
+			};
+			name = Debug;
+		};
+		63FF5FFD0CBEFF6F0086E9C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				EXECUTABLE_EXTENSION = bundle;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Common/Standard/xcode/build/Debug\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				KEEP_PRIVATE_EXTERNS = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib\"",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACH_O_TYPE = mh_bundle;
+				PREBINDING = NO;
+				PRODUCT_NAME = timer;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63FF5FDD0CBEFDB40086E9C9 /* Build configuration list for PBXProject "timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63FF5FDE0CBEFDB40086E9C9 /* Debug */,
+				63FF5FDF0CBEFDB40086E9C9 /* Release */,
+				637F265E0D8BD65B00C29C57 /* Release-Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63FF5FFB0CBEFF6F0086E9C9 /* Build configuration list for PBXNativeTarget "bundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63FF5FFC0CBEFF6F0086E9C9 /* Debug */,
+				63FF5FFD0CBEFF6F0086E9C9 /* Release */,
+				637F265F0D8BD65B00C29C57 /* Release-Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63FF5FDC0CBEFDB40086E9C9 /* Project object */;
+}

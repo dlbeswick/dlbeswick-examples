@@ -1,0 +1,11 @@
+echo "Opening DJ..."
+
+DJ_CONFIG=$1
+
+if [ $DJ_CONFIG -e  ] 
+then
+	DJ_CONFIG=Debug
+fi
+
+export DYLD_FRAMEWORK_PATH=./Frameworks/$DJ_CONFIG
+ruby dj.rb OSX $DJ_CONFIG 

@@ -1,0 +1,314 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dsound", "..\..\..\..\std\dsound\msvc\dsound.vcproj", "{80C9953F-7CC5-47D1-B097-36B4A7FBDE61}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B8CEC640-031B-4E8A-971D-848C2AB24B42} = {B8CEC640-031B-4E8A-971D-848C2AB24B42}
+		{2E78289F-5146-4B49-81C3-8A9255523922} = {2E78289F-5146-4B49-81C3-8A9255523922}
+		{FD2244AA-193E-4674-9220-5A46B40CEDF9} = {FD2244AA-193E-4674-9220-5A46B40CEDF9}
+		{67C2FFBA-87F8-48B4-8273-D414AF94760F} = {67C2FFBA-87F8-48B4-8273-D414AF94760F}
+		{9AF2B9E1-4B58-4310-AB7D-3B0673F467A1} = {9AF2B9E1-4B58-4310-AB7D-3B0673F467A1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libmad", "..\..\..\..\..\..\API\libmad-0.15.1b\msvc++\libmad.vcproj", "{9AF2B9E1-4B58-4310-AB7D-3B0673F467A1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "..\..\..\..\..\..\API\zlib123\projects\visualc6\zlib.vcproj", "{B8CEC640-031B-4E8A-971D-848C2AB24B42}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Standard", "..\..\..\..\..\Common\Standard\msvc\Standard.vcproj", "{2E78289F-5146-4B49-81C3-8A9255523922}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "timer", "..\..\..\..\std\timer\timer.vcproj", "{E6AED608-5FFF-493D-BA59-2F0E9C5D731B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2E78289F-5146-4B49-81C3-8A9255523922} = {2E78289F-5146-4B49-81C3-8A9255523922}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "midiinterface", "..\..\..\..\std\midiinterface\midiinterface.vcproj", "{E327E300-935C-4A2E-9A9A-A4DD4DBBE471}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2E78289F-5146-4B49-81C3-8A9255523922} = {2E78289F-5146-4B49-81C3-8A9255523922}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libid3tag", "..\..\..\..\..\..\API\libid3tag-0.15.1b\msvc++\libid3tag.vcproj", "{FD2244AA-193E-4674-9220-5A46B40CEDF9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B8CEC640-031B-4E8A-971D-848C2AB24B42} = {B8CEC640-031B-4E8A-971D-848C2AB24B42}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libmp3lame", "..\..\..\..\..\..\API\lame-3.97\libmp3lame\libmp3lame_vc7.vcproj", "{E316772F-5D8F-4F2A-8F71-094C3E859D34}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421} = {5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LameMp3EncDll", "..\..\..\..\..\..\API\lame-3.97\Dll\LameDll_vc7.vcproj", "{67C2FFBA-87F8-48B4-8273-D414AF94760F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E316772F-5D8F-4F2A-8F71-094C3E859D34} = {E316772F-5D8F-4F2A-8F71-094C3E859D34}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mpglib", "..\..\..\..\..\..\API\lame-3.97\mpglib\mpglib_vc7.vcproj", "{5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Launch", "Launch.vcproj", "{D75773A1-3E0E-4A43-BA55-81C06782754B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E327E300-935C-4A2E-9A9A-A4DD4DBBE471} = {E327E300-935C-4A2E-9A9A-A4DD4DBBE471}
+		{E6AED608-5FFF-493D-BA59-2F0E9C5D731B} = {E6AED608-5FFF-493D-BA59-2F0E9C5D731B}
+		{E316772F-5D8F-4F2A-8F71-094C3E859D34} = {E316772F-5D8F-4F2A-8F71-094C3E859D34}
+		{80C9953F-7CC5-47D1-B097-36B4A7FBDE61} = {80C9953F-7CC5-47D1-B097-36B4A7FBDE61}
+		{B8CEC640-031B-4E8A-971D-848C2AB24B42} = {B8CEC640-031B-4E8A-971D-848C2AB24B42}
+		{0F232672-5294-46C8-85D9-61A13344F962} = {0F232672-5294-46C8-85D9-61A13344F962}
+		{2E78289F-5146-4B49-81C3-8A9255523922} = {2E78289F-5146-4B49-81C3-8A9255523922}
+		{FD2244AA-193E-4674-9220-5A46B40CEDF9} = {FD2244AA-193E-4674-9220-5A46B40CEDF9}
+		{5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421} = {5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421}
+		{67C2FFBA-87F8-48B4-8273-D414AF94760F} = {67C2FFBA-87F8-48B4-8273-D414AF94760F}
+		{9AF2B9E1-4B58-4310-AB7D-3B0673F467A1} = {9AF2B9E1-4B58-4310-AB7D-3B0673F467A1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mediatag", "..\..\..\..\std\mediatag\mediatag.vcproj", "{0F232672-5294-46C8-85D9-61A13344F962}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2E78289F-5146-4B49-81C3-8A9255523922} = {2E78289F-5146-4B49-81C3-8A9255523922}
+		{FD2244AA-193E-4674-9220-5A46B40CEDF9} = {FD2244AA-193E-4674-9220-5A46B40CEDF9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 13
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..\\..\\..\\..\\..\\..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = projects\\ruby\\DJ\\Source\\native\\Windows\\
+		SolutionUniqueID = {B8F43F85-E0FC-428D-8D1D-B0A20726522D}
+		SccProjectUniqueName1 = ..\\..\\..\\..\\..\\..\\API\\libmad-0.15.1b\\msvc++\\libmad.vcproj
+		SccLocalPath1 = ..\\..\\..\\..\\..\\..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = API\\libmad-0.15.1b\\msvc++\\
+		SccProjectUniqueName2 = ..\\..\\..\\..\\..\\..\\API\\zlib123\\projects\\visualc6\\zlib.vcproj
+		SccLocalPath2 = ..\\..\\..\\..\\..\\..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection2 = API\\zlib123\\projects\\visualc6\\
+		SccProjectUniqueName3 = ..\\..\\..\\..\\std\\timer\\timer.vcproj
+		SccLocalPath3 = ..\\..\\..\\..\\..\\..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection3 = projects\\ruby\\std\\timer\\
+		SccProjectUniqueName4 = ..\\..\\..\\..\\std\\midiinterface\\midiinterface.vcproj
+		SccLocalPath4 = ..\\..\\..\\..\\..\\..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection4 = projects\\ruby\\std\\midiinterface\\
+		SccProjectUniqueName5 = ..\\..\\..\\..\\..\\..\\API\\libid3tag-0.15.1b\\msvc++\\libid3tag.vcproj
+		SccLocalPath5 = ..\\..\\..\\..\\..\\..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection5 = API\\libid3tag-0.15.1b\\msvc++\\
+		SccProjectUniqueName6 = ..\\..\\..\\..\\..\\..\\API\\lame-3.97\\libmp3lame\\libmp3lame_vc7.vcproj
+		SccLocalPath6 = ..\\..\\..\\..\\..\\..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection6 = API\\lame-3.97\\libmp3lame\\
+		SccProjectUniqueName7 = ..\\..\\..\\..\\..\\..\\API\\lame-3.97\\Dll\\LameDll_vc7.vcproj
+		SccLocalPath7 = ..\\..\\..\\..\\..\\..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection7 = API\\lame-3.97\\Dll\\
+		SccProjectUniqueName8 = ..\\..\\..\\..\\..\\..\\API\\lame-3.97\\mpglib\\mpglib_vc7.vcproj
+		SccLocalPath8 = ..\\..\\..\\..\\..\\..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection8 = API\\lame-3.97\\mpglib\\
+		SccProjectUniqueName9 = Launch.vcproj
+		SccLocalPath9 = ..\\..\\..\\..\\..\\..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection9 = projects\\ruby\\DJ\\Source\\native\\Windows\\
+		SccProjectUniqueName10 = ..\\..\\..\\..\\std\\mediatag\\mediatag.vcproj
+		SccLocalPath10 = ..\\..\\..\\..\\..\\..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection10 = projects\\ruby\\std\\mediatag\\
+		SccProjectUniqueName11 = ..\\..\\..\\..\\std\\dsound\\msvc\\dsound.vcproj
+		SccLocalPath11 = ..\\..\\..\\..\\..\\..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection11 = projects\\ruby\\std\\dsound\\msvc\\
+		SccProjectUniqueName12 = ..\\..\\..\\..\\..\\Common\\Standard\\msvc\\Standard.vcproj
+		SccLocalPath12 = ..\\..\\..\\..\\..\\..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection12 = projects\\Common\\Standard\\msvc\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug Static = Debug Static
+		Debug_1.9 = Debug_1.9
+		Debug_MP3 = Debug_MP3
+		Release = Release
+		Release Static = Release Static
+		Release_MP3 = Release_MP3
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{80C9953F-7CC5-47D1-B097-36B4A7FBDE61}.Debug.ActiveCfg = Debug_NoMP3|Win32
+		{80C9953F-7CC5-47D1-B097-36B4A7FBDE61}.Debug.Build.0 = Debug_NoMP3|Win32
+		{80C9953F-7CC5-47D1-B097-36B4A7FBDE61}.Debug Static.ActiveCfg = Debug|Win32
+		{80C9953F-7CC5-47D1-B097-36B4A7FBDE61}.Debug Static.Build.0 = Debug|Win32
+		{80C9953F-7CC5-47D1-B097-36B4A7FBDE61}.Debug_1.9.ActiveCfg = Debug_1.9|Win32
+		{80C9953F-7CC5-47D1-B097-36B4A7FBDE61}.Debug_1.9.Build.0 = Debug_1.9|Win32
+		{80C9953F-7CC5-47D1-B097-36B4A7FBDE61}.Debug_MP3.ActiveCfg = Debug|Win32
+		{80C9953F-7CC5-47D1-B097-36B4A7FBDE61}.Debug_MP3.Build.0 = Debug|Win32
+		{80C9953F-7CC5-47D1-B097-36B4A7FBDE61}.Release.ActiveCfg = Release_NoMP3|Win32
+		{80C9953F-7CC5-47D1-B097-36B4A7FBDE61}.Release.Build.0 = Release_NoMP3|Win32
+		{80C9953F-7CC5-47D1-B097-36B4A7FBDE61}.Release Static.ActiveCfg = Release|Win32
+		{80C9953F-7CC5-47D1-B097-36B4A7FBDE61}.Release Static.Build.0 = Release|Win32
+		{80C9953F-7CC5-47D1-B097-36B4A7FBDE61}.Release_MP3.ActiveCfg = Release|Win32
+		{80C9953F-7CC5-47D1-B097-36B4A7FBDE61}.Release_MP3.Build.0 = Release|Win32
+		{9AF2B9E1-4B58-4310-AB7D-3B0673F467A1}.Debug.ActiveCfg = Release|Win32
+		{9AF2B9E1-4B58-4310-AB7D-3B0673F467A1}.Debug.Build.0 = Release|Win32
+		{9AF2B9E1-4B58-4310-AB7D-3B0673F467A1}.Debug Static.ActiveCfg = Debug|Win32
+		{9AF2B9E1-4B58-4310-AB7D-3B0673F467A1}.Debug Static.Build.0 = Debug|Win32
+		{9AF2B9E1-4B58-4310-AB7D-3B0673F467A1}.Debug_1.9.ActiveCfg = Release|Win32
+		{9AF2B9E1-4B58-4310-AB7D-3B0673F467A1}.Debug_1.9.Build.0 = Release|Win32
+		{9AF2B9E1-4B58-4310-AB7D-3B0673F467A1}.Debug_MP3.ActiveCfg = Release|Win32
+		{9AF2B9E1-4B58-4310-AB7D-3B0673F467A1}.Debug_MP3.Build.0 = Release|Win32
+		{9AF2B9E1-4B58-4310-AB7D-3B0673F467A1}.Release.ActiveCfg = Release|Win32
+		{9AF2B9E1-4B58-4310-AB7D-3B0673F467A1}.Release.Build.0 = Release|Win32
+		{9AF2B9E1-4B58-4310-AB7D-3B0673F467A1}.Release Static.ActiveCfg = Release|Win32
+		{9AF2B9E1-4B58-4310-AB7D-3B0673F467A1}.Release Static.Build.0 = Release|Win32
+		{9AF2B9E1-4B58-4310-AB7D-3B0673F467A1}.Release_MP3.ActiveCfg = Release|Win32
+		{9AF2B9E1-4B58-4310-AB7D-3B0673F467A1}.Release_MP3.Build.0 = Release|Win32
+		{B8CEC640-031B-4E8A-971D-848C2AB24B42}.Debug.ActiveCfg = LIB Debug|Win32
+		{B8CEC640-031B-4E8A-971D-848C2AB24B42}.Debug.Build.0 = LIB Debug|Win32
+		{B8CEC640-031B-4E8A-971D-848C2AB24B42}.Debug Static.ActiveCfg = DLL Debug|Win32
+		{B8CEC640-031B-4E8A-971D-848C2AB24B42}.Debug Static.Build.0 = DLL Debug|Win32
+		{B8CEC640-031B-4E8A-971D-848C2AB24B42}.Debug_1.9.ActiveCfg = LIB Debug|Win32
+		{B8CEC640-031B-4E8A-971D-848C2AB24B42}.Debug_1.9.Build.0 = LIB Debug|Win32
+		{B8CEC640-031B-4E8A-971D-848C2AB24B42}.Debug_MP3.ActiveCfg = LIB Debug|Win32
+		{B8CEC640-031B-4E8A-971D-848C2AB24B42}.Debug_MP3.Build.0 = LIB Debug|Win32
+		{B8CEC640-031B-4E8A-971D-848C2AB24B42}.Release.ActiveCfg = LIB ASM Release|Win32
+		{B8CEC640-031B-4E8A-971D-848C2AB24B42}.Release.Build.0 = LIB ASM Release|Win32
+		{B8CEC640-031B-4E8A-971D-848C2AB24B42}.Release Static.ActiveCfg = LIB ASM Release|Win32
+		{B8CEC640-031B-4E8A-971D-848C2AB24B42}.Release Static.Build.0 = LIB ASM Release|Win32
+		{B8CEC640-031B-4E8A-971D-848C2AB24B42}.Release_MP3.ActiveCfg = LIB ASM Release|Win32
+		{B8CEC640-031B-4E8A-971D-848C2AB24B42}.Release_MP3.Build.0 = LIB ASM Release|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Debug.ActiveCfg = Debug|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Debug.Build.0 = Debug|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Debug Static.ActiveCfg = Debug Static|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Debug Static.Build.0 = Debug Static|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Debug_1.9.ActiveCfg = Debug|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Debug_1.9.Build.0 = Debug|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Debug_MP3.ActiveCfg = Debug|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Debug_MP3.Build.0 = Debug|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Release.ActiveCfg = Release|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Release.Build.0 = Release|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Release Static.ActiveCfg = Release Static|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Release Static.Build.0 = Release Static|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Release_MP3.ActiveCfg = Release_NoRuby|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Release_MP3.Build.0 = Release_NoRuby|Win32
+		{E6AED608-5FFF-493D-BA59-2F0E9C5D731B}.Debug.ActiveCfg = Debug|Win32
+		{E6AED608-5FFF-493D-BA59-2F0E9C5D731B}.Debug.Build.0 = Debug|Win32
+		{E6AED608-5FFF-493D-BA59-2F0E9C5D731B}.Debug Static.ActiveCfg = Debug|Win32
+		{E6AED608-5FFF-493D-BA59-2F0E9C5D731B}.Debug Static.Build.0 = Debug|Win32
+		{E6AED608-5FFF-493D-BA59-2F0E9C5D731B}.Debug_1.9.ActiveCfg = Debug|Win32
+		{E6AED608-5FFF-493D-BA59-2F0E9C5D731B}.Debug_1.9.Build.0 = Debug|Win32
+		{E6AED608-5FFF-493D-BA59-2F0E9C5D731B}.Debug_MP3.ActiveCfg = Debug|Win32
+		{E6AED608-5FFF-493D-BA59-2F0E9C5D731B}.Debug_MP3.Build.0 = Debug|Win32
+		{E6AED608-5FFF-493D-BA59-2F0E9C5D731B}.Release.ActiveCfg = Release|Win32
+		{E6AED608-5FFF-493D-BA59-2F0E9C5D731B}.Release.Build.0 = Release|Win32
+		{E6AED608-5FFF-493D-BA59-2F0E9C5D731B}.Release Static.ActiveCfg = Release|Win32
+		{E6AED608-5FFF-493D-BA59-2F0E9C5D731B}.Release Static.Build.0 = Release|Win32
+		{E6AED608-5FFF-493D-BA59-2F0E9C5D731B}.Release_MP3.ActiveCfg = Release|Win32
+		{E6AED608-5FFF-493D-BA59-2F0E9C5D731B}.Release_MP3.Build.0 = Release|Win32
+		{E327E300-935C-4A2E-9A9A-A4DD4DBBE471}.Debug.ActiveCfg = Debug|Win32
+		{E327E300-935C-4A2E-9A9A-A4DD4DBBE471}.Debug.Build.0 = Debug|Win32
+		{E327E300-935C-4A2E-9A9A-A4DD4DBBE471}.Debug Static.ActiveCfg = Debug|Win32
+		{E327E300-935C-4A2E-9A9A-A4DD4DBBE471}.Debug Static.Build.0 = Debug|Win32
+		{E327E300-935C-4A2E-9A9A-A4DD4DBBE471}.Debug_1.9.ActiveCfg = Debug|Win32
+		{E327E300-935C-4A2E-9A9A-A4DD4DBBE471}.Debug_1.9.Build.0 = Debug|Win32
+		{E327E300-935C-4A2E-9A9A-A4DD4DBBE471}.Debug_MP3.ActiveCfg = Debug|Win32
+		{E327E300-935C-4A2E-9A9A-A4DD4DBBE471}.Debug_MP3.Build.0 = Debug|Win32
+		{E327E300-935C-4A2E-9A9A-A4DD4DBBE471}.Release.ActiveCfg = Release|Win32
+		{E327E300-935C-4A2E-9A9A-A4DD4DBBE471}.Release.Build.0 = Release|Win32
+		{E327E300-935C-4A2E-9A9A-A4DD4DBBE471}.Release Static.ActiveCfg = Release|Win32
+		{E327E300-935C-4A2E-9A9A-A4DD4DBBE471}.Release Static.Build.0 = Release|Win32
+		{E327E300-935C-4A2E-9A9A-A4DD4DBBE471}.Release_MP3.ActiveCfg = Release|Win32
+		{E327E300-935C-4A2E-9A9A-A4DD4DBBE471}.Release_MP3.Build.0 = Release|Win32
+		{FD2244AA-193E-4674-9220-5A46B40CEDF9}.Debug.ActiveCfg = Debug|Win32
+		{FD2244AA-193E-4674-9220-5A46B40CEDF9}.Debug.Build.0 = Debug|Win32
+		{FD2244AA-193E-4674-9220-5A46B40CEDF9}.Debug Static.ActiveCfg = Debug|Win32
+		{FD2244AA-193E-4674-9220-5A46B40CEDF9}.Debug Static.Build.0 = Debug|Win32
+		{FD2244AA-193E-4674-9220-5A46B40CEDF9}.Debug_1.9.ActiveCfg = Debug|Win32
+		{FD2244AA-193E-4674-9220-5A46B40CEDF9}.Debug_1.9.Build.0 = Debug|Win32
+		{FD2244AA-193E-4674-9220-5A46B40CEDF9}.Debug_MP3.ActiveCfg = Debug|Win32
+		{FD2244AA-193E-4674-9220-5A46B40CEDF9}.Debug_MP3.Build.0 = Debug|Win32
+		{FD2244AA-193E-4674-9220-5A46B40CEDF9}.Release.ActiveCfg = Release|Win32
+		{FD2244AA-193E-4674-9220-5A46B40CEDF9}.Release.Build.0 = Release|Win32
+		{FD2244AA-193E-4674-9220-5A46B40CEDF9}.Release Static.ActiveCfg = Release|Win32
+		{FD2244AA-193E-4674-9220-5A46B40CEDF9}.Release Static.Build.0 = Release|Win32
+		{FD2244AA-193E-4674-9220-5A46B40CEDF9}.Release_MP3.ActiveCfg = Release|Win32
+		{FD2244AA-193E-4674-9220-5A46B40CEDF9}.Release_MP3.Build.0 = Release|Win32
+		{E316772F-5D8F-4F2A-8F71-094C3E859D34}.Debug.ActiveCfg = dll release Nasm|Win32
+		{E316772F-5D8F-4F2A-8F71-094C3E859D34}.Debug.Build.0 = dll release Nasm|Win32
+		{E316772F-5D8F-4F2A-8F71-094C3E859D34}.Debug Static.ActiveCfg = Debug|Win32
+		{E316772F-5D8F-4F2A-8F71-094C3E859D34}.Debug Static.Build.0 = Debug|Win32
+		{E316772F-5D8F-4F2A-8F71-094C3E859D34}.Debug_1.9.ActiveCfg = dll release Nasm|Win32
+		{E316772F-5D8F-4F2A-8F71-094C3E859D34}.Debug_1.9.Build.0 = dll release Nasm|Win32
+		{E316772F-5D8F-4F2A-8F71-094C3E859D34}.Debug_MP3.ActiveCfg = dll release Nasm|Win32
+		{E316772F-5D8F-4F2A-8F71-094C3E859D34}.Debug_MP3.Build.0 = dll release Nasm|Win32
+		{E316772F-5D8F-4F2A-8F71-094C3E859D34}.Release.ActiveCfg = Release|Win32
+		{E316772F-5D8F-4F2A-8F71-094C3E859D34}.Release.Build.0 = Release|Win32
+		{E316772F-5D8F-4F2A-8F71-094C3E859D34}.Release Static.ActiveCfg = Release GTK|Win32
+		{E316772F-5D8F-4F2A-8F71-094C3E859D34}.Release Static.Build.0 = Release GTK|Win32
+		{E316772F-5D8F-4F2A-8F71-094C3E859D34}.Release_MP3.ActiveCfg = Release|Win32
+		{E316772F-5D8F-4F2A-8F71-094C3E859D34}.Release_MP3.Build.0 = Release|Win32
+		{67C2FFBA-87F8-48B4-8273-D414AF94760F}.Debug.ActiveCfg = Debug|Win32
+		{67C2FFBA-87F8-48B4-8273-D414AF94760F}.Debug.Build.0 = Debug|Win32
+		{67C2FFBA-87F8-48B4-8273-D414AF94760F}.Debug Static.ActiveCfg = Debug|Win32
+		{67C2FFBA-87F8-48B4-8273-D414AF94760F}.Debug Static.Build.0 = Debug|Win32
+		{67C2FFBA-87F8-48B4-8273-D414AF94760F}.Debug_1.9.ActiveCfg = Debug|Win32
+		{67C2FFBA-87F8-48B4-8273-D414AF94760F}.Debug_1.9.Build.0 = Debug|Win32
+		{67C2FFBA-87F8-48B4-8273-D414AF94760F}.Debug_MP3.ActiveCfg = Debug|Win32
+		{67C2FFBA-87F8-48B4-8273-D414AF94760F}.Debug_MP3.Build.0 = Debug|Win32
+		{67C2FFBA-87F8-48B4-8273-D414AF94760F}.Release.ActiveCfg = Release|Win32
+		{67C2FFBA-87F8-48B4-8273-D414AF94760F}.Release.Build.0 = Release|Win32
+		{67C2FFBA-87F8-48B4-8273-D414AF94760F}.Release Static.ActiveCfg = Release NASM|Win32
+		{67C2FFBA-87F8-48B4-8273-D414AF94760F}.Release Static.Build.0 = Release NASM|Win32
+		{67C2FFBA-87F8-48B4-8273-D414AF94760F}.Release_MP3.ActiveCfg = Release|Win32
+		{67C2FFBA-87F8-48B4-8273-D414AF94760F}.Release_MP3.Build.0 = Release|Win32
+		{5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421}.Debug.ActiveCfg = dll release Nasm|Win32
+		{5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421}.Debug.Build.0 = dll release Nasm|Win32
+		{5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421}.Debug Static.ActiveCfg = Debug|Win32
+		{5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421}.Debug Static.Build.0 = Debug|Win32
+		{5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421}.Debug_1.9.ActiveCfg = dll release Nasm|Win32
+		{5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421}.Debug_1.9.Build.0 = dll release Nasm|Win32
+		{5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421}.Debug_MP3.ActiveCfg = dll release Nasm|Win32
+		{5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421}.Debug_MP3.Build.0 = dll release Nasm|Win32
+		{5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421}.Release.ActiveCfg = dll release Nasm|Win32
+		{5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421}.Release.Build.0 = dll release Nasm|Win32
+		{5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421}.Release Static.ActiveCfg = Release|Win32
+		{5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421}.Release Static.Build.0 = Release|Win32
+		{5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421}.Release_MP3.ActiveCfg = dll release Nasm|Win32
+		{5CCD2FB5-67E2-4C48-8F7B-49F28BF8D421}.Release_MP3.Build.0 = dll release Nasm|Win32
+		{D75773A1-3E0E-4A43-BA55-81C06782754B}.Debug.ActiveCfg = Debug|Win32
+		{D75773A1-3E0E-4A43-BA55-81C06782754B}.Debug.Build.0 = Debug|Win32
+		{D75773A1-3E0E-4A43-BA55-81C06782754B}.Debug Static.ActiveCfg = Debug|Win32
+		{D75773A1-3E0E-4A43-BA55-81C06782754B}.Debug Static.Build.0 = Debug|Win32
+		{D75773A1-3E0E-4A43-BA55-81C06782754B}.Debug_1.9.ActiveCfg = Debug|Win32
+		{D75773A1-3E0E-4A43-BA55-81C06782754B}.Debug_1.9.Build.0 = Debug|Win32
+		{D75773A1-3E0E-4A43-BA55-81C06782754B}.Debug_MP3.ActiveCfg = Debug|Win32
+		{D75773A1-3E0E-4A43-BA55-81C06782754B}.Debug_MP3.Build.0 = Debug|Win32
+		{D75773A1-3E0E-4A43-BA55-81C06782754B}.Release.ActiveCfg = Release|Win32
+		{D75773A1-3E0E-4A43-BA55-81C06782754B}.Release.Build.0 = Release|Win32
+		{D75773A1-3E0E-4A43-BA55-81C06782754B}.Release Static.ActiveCfg = Release|Win32
+		{D75773A1-3E0E-4A43-BA55-81C06782754B}.Release Static.Build.0 = Release|Win32
+		{D75773A1-3E0E-4A43-BA55-81C06782754B}.Release_MP3.ActiveCfg = Release|Win32
+		{D75773A1-3E0E-4A43-BA55-81C06782754B}.Release_MP3.Build.0 = Release|Win32
+		{0F232672-5294-46C8-85D9-61A13344F962}.Debug.ActiveCfg = Debug|Win32
+		{0F232672-5294-46C8-85D9-61A13344F962}.Debug.Build.0 = Debug|Win32
+		{0F232672-5294-46C8-85D9-61A13344F962}.Debug Static.ActiveCfg = Debug|Win32
+		{0F232672-5294-46C8-85D9-61A13344F962}.Debug Static.Build.0 = Debug|Win32
+		{0F232672-5294-46C8-85D9-61A13344F962}.Debug_1.9.ActiveCfg = Debug|Win32
+		{0F232672-5294-46C8-85D9-61A13344F962}.Debug_1.9.Build.0 = Debug|Win32
+		{0F232672-5294-46C8-85D9-61A13344F962}.Debug_MP3.ActiveCfg = Debug|Win32
+		{0F232672-5294-46C8-85D9-61A13344F962}.Debug_MP3.Build.0 = Debug|Win32
+		{0F232672-5294-46C8-85D9-61A13344F962}.Release.ActiveCfg = Release|Win32
+		{0F232672-5294-46C8-85D9-61A13344F962}.Release.Build.0 = Release|Win32
+		{0F232672-5294-46C8-85D9-61A13344F962}.Release Static.ActiveCfg = Release|Win32
+		{0F232672-5294-46C8-85D9-61A13344F962}.Release Static.Build.0 = Release|Win32
+		{0F232672-5294-46C8-85D9-61A13344F962}.Release_MP3.ActiveCfg = Release|Win32
+		{0F232672-5294-46C8-85D9-61A13344F962}.Release_MP3.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

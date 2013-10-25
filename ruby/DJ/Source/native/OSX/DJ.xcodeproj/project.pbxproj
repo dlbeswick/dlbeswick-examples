@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6348ECC311EB4D4200DF2F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6348ECBC11EB4D4200DF2F13 /* Standard.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = Standard;
+		};
+		6348EF5F11EC3C6700DF2F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6348ECBC11EB4D4200DF2F13 /* Standard.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = Standard;
+		};
+		6348EF6B11EC3CA400DF2F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6348EF6311EC3CA400DF2F13 /* dsound.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 63E0E77E0D0FD92E0039888C;
+			remoteInfo = dsound;
+		};
+		6348EF6D11EC3CAA00DF2F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6348EF6311EC3CA400DF2F13 /* dsound.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC0C605546C1D00DB518D;
+			remoteInfo = dsound;
+		};
+		6348F1C411ECB3ED00DF2F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6348EF3611EC3AF900DF2F13 /* mediatag.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 63FF5FF60CBEFF3D0086E9C9;
+			remoteInfo = bundle;
+		};
+		6348F1C711ECB44D00DF2F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6348EF3611EC3AF900DF2F13 /* mediatag.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 63FF5FF50CBEFF3D0086E9C9;
+			remoteInfo = bundle;
+		};
+		634AEB9811ECB5F20093DD99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B2BEEE0CB890C400DBA357 /* midiinterface.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 637E848C0CBE7B2C00A851C3 /* midi.bundle */;
+			remoteInfo = obj;
+		};
+		634AEB9A11ECB6430093DD99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B2BEEE0CB890C400DBA357 /* midiinterface.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 637E848B0CBE7B2C00A851C3 /* obj */;
+			remoteInfo = obj;
+		};
+		634AECD311ECC3F50093DD99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63E0E9050D154C160039888C /* timer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 63FF5FF60CBEFF3D0086E9C9 /* timer.bundle */;
+			remoteInfo = bundle;
+		};
+		634AECD511ECC4000093DD99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63E0E9050D154C160039888C /* timer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 63FF5FF50CBEFF3D0086E9C9 /* bundle */;
+			remoteInfo = bundle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63455C9C0E90239E00E4DEFB /* actuator.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = actuator.rb; path = ../../actuator.rb; sourceTree = SOURCE_ROOT; };
+		63455C9D0E90239E00E4DEFB /* ActuatorHost.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = ActuatorHost.rb; path = ../../ActuatorHost.rb; sourceTree = SOURCE_ROOT; };
+		63455C9E0E90239E00E4DEFB /* album.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = album.rb; path = ../../album.rb; sourceTree = SOURCE_ROOT; };
+		63455C9F0E90239E00E4DEFB /* AudioLibrary.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = AudioLibrary.rb; path = ../../AudioLibrary.rb; sourceTree = SOURCE_ROOT; };
+		63455CA00E90239E00E4DEFB /* ChangeActuator.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = ChangeActuator.rb; path = ../../ChangeActuator.rb; sourceTree = SOURCE_ROOT; };
+		63455CA10E90239E00E4DEFB /* DataSelector.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = DataSelector.rb; path = ../../DataSelector.rb; sourceTree = SOURCE_ROOT; };
+		63455CA20E90239E00E4DEFB /* DevContainer.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = DevContainer.rb; path = ../../DevContainer.rb; sourceTree = SOURCE_ROOT; };
+		63455CA30E90239E00E4DEFB /* dj.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = dj.rb; path = ../../dj.rb; sourceTree = SOURCE_ROOT; };
+		63455CA40E90239E00E4DEFB /* djapp.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = djapp.rb; path = ../../djapp.rb; sourceTree = SOURCE_ROOT; };
+		63455CA50E90239E00E4DEFB /* djinit.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = djinit.rb; path = ../../djinit.rb; sourceTree = SOURCE_ROOT; };
+		63455CA60E90239E00E4DEFB /* DNDArea.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = DNDArea.rb; path = ../../DNDArea.rb; sourceTree = SOURCE_ROOT; };
+		63455CA70E90239E00E4DEFB /* DNDData.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = DNDData.rb; path = ../../DNDData.rb; sourceTree = SOURCE_ROOT; };
+		63455CA80E90239E00E4DEFB /* DNDDataActuatorLink.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = DNDDataActuatorLink.rb; path = ../../DNDDataActuatorLink.rb; sourceTree = SOURCE_ROOT; };
+		63455CA90E90239E00E4DEFB /* DNDStaticText.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = DNDStaticText.rb; path = ../../DNDStaticText.rb; sourceTree = SOURCE_ROOT; };
+		63455CAA0E90239E00E4DEFB /* GUIValueModifier.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = GUIValueModifier.rb; path = ../../GUIValueModifier.rb; sourceTree = SOURCE_ROOT; };
+		63455CAB0E90239E00E4DEFB /* master.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = master.rb; path = ../../master.rb; sourceTree = SOURCE_ROOT; };
+		63455CAC0E90239E00E4DEFB /* MenuBar.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = MenuBar.rb; path = ../../MenuBar.rb; sourceTree = SOURCE_ROOT; };
+		63455CAD0E90239E00E4DEFB /* midiactuator.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = midiactuator.rb; path = ../../midiactuator.rb; sourceTree = SOURCE_ROOT; };
+		63455CAE0E90239E00E4DEFB /* MIDIController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = MIDIController.rb; path = ../../MIDIController.rb; sourceTree = SOURCE_ROOT; };
+		63455CAF0E90239E00E4DEFB /* musiccollection.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = musiccollection.rb; path = ../../musiccollection.rb; sourceTree = SOURCE_ROOT; };
+		63455CB00E90239E00E4DEFB /* Resource.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = Resource.rb; path = ../../Resource.rb; sourceTree = SOURCE_ROOT; };
+		63455CB10E90239E00E4DEFB /* ResourceFile.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = ResourceFile.rb; path = ../../ResourceFile.rb; sourceTree = SOURCE_ROOT; };
+		63455CB20E90239E00E4DEFB /* source.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = source.rb; path = ../../source.rb; sourceTree = SOURCE_ROOT; };
+		63455CB30E90239E00E4DEFB /* sourcemodifier.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = sourcemodifier.rb; path = ../../sourcemodifier.rb; sourceTree = SOURCE_ROOT; };
+		63455CB40E90239E00E4DEFB /* test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = test.rb; path = ../../test.rb; sourceTree = SOURCE_ROOT; };
+		63455CB50E90239E00E4DEFB /* track.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = track.rb; path = ../../track.rb; sourceTree = SOURCE_ROOT; };
+		63455CB60E90239E00E4DEFB /* visualactuator.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = visualactuator.rb; path = ../../visualactuator.rb; sourceTree = SOURCE_ROOT; };
+		63455CD30E9023B100E4DEFB /* rdsound.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = rdsound.rb; sourceTree = "<group>"; };
+		63455CD60E9023BF00E4DEFB /* midi.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = midi.rb; sourceTree = "<group>"; };
+		63455CD90E9023CC00E4DEFB /* ActuatorHostView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ActuatorHostView.rb; sourceTree = "<group>"; };
+		63455CDA0E9023CC00E4DEFB /* ActuatorView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ActuatorView.rb; sourceTree = "<group>"; };
+		63455CDB0E9023CC00E4DEFB /* ChangeActuatorView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ChangeActuatorView.rb; sourceTree = "<group>"; };
+		63455CDC0E9023CC00E4DEFB /* fileview.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = fileview.rb; sourceTree = "<group>"; };
+		63455CDD0E9023CC00E4DEFB /* MappingButtonView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MappingButtonView.rb; sourceTree = "<group>"; };
+		63455CDE0E9023CC00E4DEFB /* MappingEditor.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MappingEditor.rb; sourceTree = "<group>"; };
+		63455CDF0E9023CC00E4DEFB /* MappingView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MappingView.rb; sourceTree = "<group>"; };
+		63455CE00E9023CC00E4DEFB /* MIDIActuatorView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MIDIActuatorView.rb; sourceTree = "<group>"; };
+		63455CE10E9023CC00E4DEFB /* MIDIControllerView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MIDIControllerView.rb; sourceTree = "<group>"; };
+		63455CE20E9023CC00E4DEFB /* musiccollectionview.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = musiccollectionview.rb; sourceTree = "<group>"; };
+		63455CE30E9023CC00E4DEFB /* MusicCollectionViewAll.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MusicCollectionViewAll.rb; sourceTree = "<group>"; };
+		63455CE40E9023CC00E4DEFB /* MusicCollectionViewRandom.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MusicCollectionViewRandom.rb; sourceTree = "<group>"; };
+		63455CE50E9023CC00E4DEFB /* sourceview.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = sourceview.rb; sourceTree = "<group>"; };
+		63455CE60E9023CC00E4DEFB /* WaveformVisualisation.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = WaveformVisualisation.rb; sourceTree = "<group>"; };
+		63455CF80E90244A00E4DEFB /* algorithm.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = algorithm.rb; sourceTree = "<group>"; };
+		63455CF90E90244A00E4DEFB /* AttributeReference.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = AttributeReference.rb; sourceTree = "<group>"; };
+		63455CFA0E90244A00E4DEFB /* Config.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Config.rb; sourceTree = "<group>"; };
+		63455CFB0E90244A00E4DEFB /* ConfigSet.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ConfigSet.rb; sourceTree = "<group>"; };
+		63455CFC0E90244A00E4DEFB /* ConfigXML.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ConfigXML.rb; sourceTree = "<group>"; };
+		63455CFD0E90244A00E4DEFB /* ConfigYAML.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ConfigYAML.rb; sourceTree = "<group>"; };
+		63455CFE0E90244A00E4DEFB /* DataCombo.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = DataCombo.rb; sourceTree = "<group>"; };
+		63455CFF0E90244A00E4DEFB /* DefaultCreateable.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = DefaultCreateable.rb; sourceTree = "<group>"; };
+		63455D000E90244A00E4DEFB /* DefaultSymbolTypes.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = DefaultSymbolTypes.rb; sourceTree = "<group>"; };
+		63455D930E90244C00E4DEFB /* EnumerableInstances.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = EnumerableInstances.rb; sourceTree = "<group>"; };
+		63455D940E90244C00E4DEFB /* EnumerableSubclasses.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = EnumerableSubclasses.rb; sourceTree = "<group>"; };
+		63455D950E90244C00E4DEFB /* EvalWindow.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = EvalWindow.rb; sourceTree = "<group>"; };
+		63455D9A0E90244C00E4DEFB /* GUIfox.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = GUIfox.rb; sourceTree = "<group>"; };
+		63455D9B0E90244C00E4DEFB /* GUIWx.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = GUIWx.rb; sourceTree = "<group>"; };
+		63455E0F0E90244D00E4DEFB /* IncludableClassMethods.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = IncludableClassMethods.rb; sourceTree = "<group>"; };
+		63455E100E90244D00E4DEFB /* mapping.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = mapping.rb; sourceTree = "<group>"; };
+		63455E110E90244D00E4DEFB /* MappingPersistent.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MappingPersistent.rb; sourceTree = "<group>"; };
+		63455E120E90244D00E4DEFB /* MappingSymbolDefaults.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MappingSymbolDefaults.rb; sourceTree = "<group>"; };
+		63455E130E90244D00E4DEFB /* math.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = math.rb; sourceTree = "<group>"; };
+		63455E140E90244D00E4DEFB /* MemoryProfiler.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MemoryProfiler.rb; sourceTree = "<group>"; };
+		63455EAC0E90244E00E4DEFB /* ModuleLogging.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ModuleLogging.rb; sourceTree = "<group>"; };
+		63455EAD0E90244E00E4DEFB /* notify.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = notify.rb; sourceTree = "<group>"; };
+		63455EAE0E90244E00E4DEFB /* ObjectHost.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ObjectHost.rb; sourceTree = "<group>"; };
+		63455EB90E90244E00E4DEFB /* path.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = path.rb; sourceTree = "<group>"; };
+		63455EBA0E90244E00E4DEFB /* perforce.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = perforce.rb; sourceTree = "<group>"; };
+		63455EBB0E90244E00E4DEFB /* PersistentWindow.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = PersistentWindow.rb; sourceTree = "<group>"; };
+		63455EBC0E90244E00E4DEFB /* Platform.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Platform.rb; sourceTree = "<group>"; };
+		63455EBD0E90244E00E4DEFB /* SafeThread.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SafeThread.rb; sourceTree = "<group>"; };
+		63455EBE0E90244E00E4DEFB /* std.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = std.rb; sourceTree = "<group>"; };
+		63455EBF0E90244E00E4DEFB /* stdfile.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = stdfile.rb; sourceTree = "<group>"; };
+		63455EC00E90244E00E4DEFB /* SymbolDefaults.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SymbolDefaults.rb; sourceTree = "<group>"; };
+		63455EC20E90244E00E4DEFB /* suite.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = suite.rb; sourceTree = "<group>"; };
+		63455EC30E90244E00E4DEFB /* test_EnumerableInstances.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = test_EnumerableInstances.rb; sourceTree = "<group>"; };
+		63455EC40E90244E00E4DEFB /* test_EnumerableSubclasses.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = test_EnumerableSubclasses.rb; sourceTree = "<group>"; };
+		63455EC50E90244E00E4DEFB /* test_IncludableClassMethods.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = test_IncludableClassMethods.rb; sourceTree = "<group>"; };
+		63455EC60E90244E00E4DEFB /* test_MemoryProfiler.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = test_MemoryProfiler.rb; sourceTree = "<group>"; };
+		63455EC70E90244E00E4DEFB /* test_perforce.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = test_perforce.rb; sourceTree = "<group>"; };
+		63455EC80E90244E00E4DEFB /* TimedLogger.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = TimedLogger.rb; sourceTree = "<group>"; };
+		63455F110E90244E00E4DEFB /* UniqueID.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = UniqueID.rb; sourceTree = "<group>"; };
+		63455F120E90244E00E4DEFB /* UniqueIDConfig.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = UniqueIDConfig.rb; sourceTree = "<group>"; };
+		63455F140E90244E00E4DEFB /* AttributeReferenceTextField.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = AttributeReferenceTextField.rb; sourceTree = "<group>"; };
+		63455F150E90244E00E4DEFB /* Date.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Date.rb; sourceTree = "<group>"; };
+		63455F160E90244E00E4DEFB /* GraphView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = GraphView.rb; sourceTree = "<group>"; };
+		63455F170E90244E00E4DEFB /* MultipleViewsTabbed.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MultipleViewsTabbed.rb; sourceTree = "<group>"; };
+		63455F180E90244E00E4DEFB /* Range.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Range.rb; sourceTree = "<group>"; };
+		63455F190E90244E00E4DEFB /* View.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = View.rb; sourceTree = "<group>"; };
+		63455F1A0E90244E00E4DEFB /* Viewable.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Viewable.rb; sourceTree = "<group>"; };
+		63455F1B0E90244E00E4DEFB /* ViewContainer.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ViewContainer.rb; sourceTree = "<group>"; };
+		63455F1C0E90244E00E4DEFB /* ViewFox.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ViewFox.rb; sourceTree = "<group>"; };
+		63455F1D0E90244E00E4DEFB /* ViewWx.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ViewWx.rb; sourceTree = "<group>"; };
+		63471B2F0D20FB3D009C18F6 /* DJ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DJ-Info.plist"; sourceTree = "<group>"; };
+		63471B4B0D20FC99009C18F6 /* dj.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = dj.mm; sourceTree = "<group>"; };
+		6348ECBC11EB4D4200DF2F13 /* Standard.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Standard.xcodeproj; path = ../../../../../Common/Standard/xcode/Standard.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6348EF3611EC3AF900DF2F13 /* mediatag.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mediatag.xcodeproj; path = ../../../../std/mediatag/xcode/mediatag.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6348EF6311EC3CA400DF2F13 /* dsound.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = dsound.xcodeproj; path = ../../../../std/dsound/xcode/dsound.xcodeproj; sourceTree = SOURCE_ROOT; };
+		63B2BEEE0CB890C400DBA357 /* midiinterface.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = midiinterface.xcodeproj; path = ../../../../std/midiinterface/xcode/midiinterface.xcodeproj; sourceTree = SOURCE_ROOT; };
+		63CE33170D2358D5001B291F /* DJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DD4C5F0EC8DF8900FBE45F /* SourceModifierView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SourceModifierView.rb; sourceTree = "<group>"; };
+		63E0E9050D154C160039888C /* timer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = timer.xcodeproj; path = ../../../../std/timer/xcode/timer.xcodeproj; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63471B2B0D20FB3D009C18F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63455C600E9022AB00E4DEFB /* Ruby */ = {
+			isa = PBXGroup;
+			children = (
+				63455CF50E90244A00E4DEFB /* std */,
+				63455CD80E9023CC00E4DEFB /* Views */,
+				63455CD50E9023BF00E4DEFB /* midi */,
+				63455CD20E9023B100E4DEFB /* dsound */,
+				63455C9C0E90239E00E4DEFB /* actuator.rb */,
+				63455C9D0E90239E00E4DEFB /* ActuatorHost.rb */,
+				63455C9E0E90239E00E4DEFB /* album.rb */,
+				63455C9F0E90239E00E4DEFB /* AudioLibrary.rb */,
+				63455CA00E90239E00E4DEFB /* ChangeActuator.rb */,
+				63455CA10E90239E00E4DEFB /* DataSelector.rb */,
+				63455CA20E90239E00E4DEFB /* DevContainer.rb */,
+				63455CA30E90239E00E4DEFB /* dj.rb */,
+				63455CA40E90239E00E4DEFB /* djapp.rb */,
+				63455CA50E90239E00E4DEFB /* djinit.rb */,
+				63455CA60E90239E00E4DEFB /* DNDArea.rb */,
+				63455CA70E90239E00E4DEFB /* DNDData.rb */,
+				63455CA80E90239E00E4DEFB /* DNDDataActuatorLink.rb */,
+				63455CA90E90239E00E4DEFB /* DNDStaticText.rb */,
+				63455CAA0E90239E00E4DEFB /* GUIValueModifier.rb */,
+				63455CAB0E90239E00E4DEFB /* master.rb */,
+				63455CAC0E90239E00E4DEFB /* MenuBar.rb */,
+				63455CAD0E90239E00E4DEFB /* midiactuator.rb */,
+				63455CAE0E90239E00E4DEFB /* MIDIController.rb */,
+				63455CAF0E90239E00E4DEFB /* musiccollection.rb */,
+				63455CB00E90239E00E4DEFB /* Resource.rb */,
+				63455CB10E90239E00E4DEFB /* ResourceFile.rb */,
+				63455CB20E90239E00E4DEFB /* source.rb */,
+				63455CB30E90239E00E4DEFB /* sourcemodifier.rb */,
+				63455CB40E90239E00E4DEFB /* test.rb */,
+				63455CB50E90239E00E4DEFB /* track.rb */,
+				63455CB60E90239E00E4DEFB /* visualactuator.rb */,
+			);
+			indentWidth = 2;
+			name = Ruby;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		63455CD20E9023B100E4DEFB /* dsound */ = {
+			isa = PBXGroup;
+			children = (
+				63455CD30E9023B100E4DEFB /* rdsound.rb */,
+			);
+			name = dsound;
+			path = ../../dsound;
+			sourceTree = SOURCE_ROOT;
+		};
+		63455CD50E9023BF00E4DEFB /* midi */ = {
+			isa = PBXGroup;
+			children = (
+				63455CD60E9023BF00E4DEFB /* midi.rb */,
+			);
+			name = midi;
+			path = ../../midi;
+			sourceTree = SOURCE_ROOT;
+		};
+		63455CD80E9023CC00E4DEFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63455CD90E9023CC00E4DEFB /* ActuatorHostView.rb */,
+				63455CDA0E9023CC00E4DEFB /* ActuatorView.rb */,
+				63455CDB0E9023CC00E4DEFB /* ChangeActuatorView.rb */,
+				63455CDC0E9023CC00E4DEFB /* fileview.rb */,
+				63455CDD0E9023CC00E4DEFB /* MappingButtonView.rb */,
+				63455CDE0E9023CC00E4DEFB /* MappingEditor.rb */,
+				63455CDF0E9023CC00E4DEFB /* MappingView.rb */,
+				63455CE00E9023CC00E4DEFB /* MIDIActuatorView.rb */,
+				63455CE10E9023CC00E4DEFB /* MIDIControllerView.rb */,
+				63455CE20E9023CC00E4DEFB /* musiccollectionview.rb */,
+				63455CE30E9023CC00E4DEFB /* MusicCollectionViewAll.rb */,
+				63455CE40E9023CC00E4DEFB /* MusicCollectionViewRandom.rb */,
+				63455CE50E9023CC00E4DEFB /* sourceview.rb */,
+				63455CE60E9023CC00E4DEFB /* WaveformVisualisation.rb */,
+				63DD4C5F0EC8DF8900FBE45F /* SourceModifierView.rb */,
+			);
+			name = Views;
+			path = ../../Views;
+			sourceTree = SOURCE_ROOT;
+		};
+		63455CF50E90244A00E4DEFB /* std */ = {
+			isa = PBXGroup;
+			children = (
+				63455EC10E90244E00E4DEFB /* test */,
+				63455F130E90244E00E4DEFB /* view */,
+				63455CF80E90244A00E4DEFB /* algorithm.rb */,
+				63455CF90E90244A00E4DEFB /* AttributeReference.rb */,
+				63455CFA0E90244A00E4DEFB /* Config.rb */,
+				63455CFB0E90244A00E4DEFB /* ConfigSet.rb */,
+				63455CFC0E90244A00E4DEFB /* ConfigXML.rb */,
+				63455CFD0E90244A00E4DEFB /* ConfigYAML.rb */,
+				63455CFE0E90244A00E4DEFB /* DataCombo.rb */,
+				63455CFF0E90244A00E4DEFB /* DefaultCreateable.rb */,
+				63455D000E90244A00E4DEFB /* DefaultSymbolTypes.rb */,
+				63455D930E90244C00E4DEFB /* EnumerableInstances.rb */,
+				63455D940E90244C00E4DEFB /* EnumerableSubclasses.rb */,
+				63455D950E90244C00E4DEFB /* EvalWindow.rb */,
+				63455D9A0E90244C00E4DEFB /* GUIfox.rb */,
+				63455D9B0E90244C00E4DEFB /* GUIWx.rb */,
+				63455E0F0E90244D00E4DEFB /* IncludableClassMethods.rb */,
+				63455E100E90244D00E4DEFB /* mapping.rb */,
+				63455E110E90244D00E4DEFB /* MappingPersistent.rb */,
+				63455E120E90244D00E4DEFB /* MappingSymbolDefaults.rb */,
+				63455E130E90244D00E4DEFB /* math.rb */,
+				63455E140E90244D00E4DEFB /* MemoryProfiler.rb */,
+				63455EAC0E90244E00E4DEFB /* ModuleLogging.rb */,
+				63455EAD0E90244E00E4DEFB /* notify.rb */,
+				63455EAE0E90244E00E4DEFB /* ObjectHost.rb */,
+				63455EB90E90244E00E4DEFB /* path.rb */,
+				63455EBA0E90244E00E4DEFB /* perforce.rb */,
+				63455EBB0E90244E00E4DEFB /* PersistentWindow.rb */,
+				63455EBC0E90244E00E4DEFB /* Platform.rb */,
+				63455EBD0E90244E00E4DEFB /* SafeThread.rb */,
+				63455EBE0E90244E00E4DEFB /* std.rb */,
+				63455EBF0E90244E00E4DEFB /* stdfile.rb */,
+				63455EC00E90244E00E4DEFB /* SymbolDefaults.rb */,
+				63455EC80E90244E00E4DEFB /* TimedLogger.rb */,
+				63455F110E90244E00E4DEFB /* UniqueID.rb */,
+				63455F120E90244E00E4DEFB /* UniqueIDConfig.rb */,
+			);
+			name = std;
+			path = ../../../../std;
+			sourceTree = SOURCE_ROOT;
+		};
+		63455EC10E90244E00E4DEFB /* test */ = {
+			isa = PBXGroup;
+			children = (
+				63455EC20E90244E00E4DEFB /* suite.rb */,
+				63455EC30E90244E00E4DEFB /* test_EnumerableInstances.rb */,
+				63455EC40E90244E00E4DEFB /* test_EnumerableSubclasses.rb */,
+				63455EC50E90244E00E4DEFB /* test_IncludableClassMethods.rb */,
+				63455EC60E90244E00E4DEFB /* test_MemoryProfiler.rb */,
+				63455EC70E90244E00E4DEFB /* test_perforce.rb */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		63455F130E90244E00E4DEFB /* view */ = {
+			isa = PBXGroup;
+			children = (
+				63455F140E90244E00E4DEFB /* AttributeReferenceTextField.rb */,
+				63455F150E90244E00E4DEFB /* Date.rb */,
+				63455F160E90244E00E4DEFB /* GraphView.rb */,
+				63455F170E90244E00E4DEFB /* MultipleViewsTabbed.rb */,
+				63455F180E90244E00E4DEFB /* Range.rb */,
+				63455F190E90244E00E4DEFB /* View.rb */,
+				63455F1A0E90244E00E4DEFB /* Viewable.rb */,
+				63455F1B0E90244E00E4DEFB /* ViewContainer.rb */,
+				63455F1C0E90244E00E4DEFB /* ViewFox.rb */,
+				63455F1D0E90244E00E4DEFB /* ViewWx.rb */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		63471B430D20FBB6009C18F6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				63471B4B0D20FC99009C18F6 /* dj.mm */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		6348ECBD11EB4D4200DF2F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6348ECC411EB4D4200DF2F13 /* Standard.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6348EF6411EC3CA400DF2F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6348EF6C11EC3CA400DF2F13 /* dsound.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6348F1C111ECB3ED00DF2F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6348F1C511ECB3ED00DF2F13 /* mediatag.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		634AEB9511ECB5F20093DD99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				634AEB9911ECB5F20093DD99 /* midi.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		634AECD011ECC3F50093DD99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				634AECD411ECC3F50093DD99 /* timer.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		637D00760C181C2A00153826 = {
+			isa = PBXGroup;
+			children = (
+				6348EF6311EC3CA400DF2F13 /* dsound.xcodeproj */,
+				6348EF3611EC3AF900DF2F13 /* mediatag.xcodeproj */,
+				6348ECBC11EB4D4200DF2F13 /* Standard.xcodeproj */,
+				63455C600E9022AB00E4DEFB /* Ruby */,
+				63471B430D20FBB6009C18F6 /* Source */,
+				63E0E9050D154C160039888C /* timer.xcodeproj */,
+				63B2BEEE0CB890C400DBA357 /* midiinterface.xcodeproj */,
+				63471B2F0D20FB3D009C18F6 /* DJ-Info.plist */,
+				63CE33170D2358D5001B291F /* DJ.app */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63471B2C0D20FB3D009C18F6 /* DJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63471B320D20FB3E009C18F6 /* Build configuration list for PBXNativeTarget "DJ" */;
+			buildPhases = (
+				63CE10730D2245AB001B291F /* ShellScript */,
+				63471B290D20FB3D009C18F6 /* Resources */,
+				63471B2A0D20FB3D009C18F6 /* Sources */,
+				63471B2B0D20FB3D009C18F6 /* Frameworks */,
+				634E0C500E5C3F370053AA4F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6348EF6011EC3C6700DF2F13 /* PBXTargetDependency */,
+				6348EF6E11EC3CAA00DF2F13 /* PBXTargetDependency */,
+				6348F1C811ECB44D00DF2F13 /* PBXTargetDependency */,
+				634AEB9B11ECB6430093DD99 /* PBXTargetDependency */,
+				634AECD611ECC4000093DD99 /* PBXTargetDependency */,
+			);
+			name = DJ;
+			productName = DJ;
+			productReference = 63CE33170D2358D5001B291F /* DJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		637D00780C181C2A00153826 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 637D00790C181C2A00153826 /* Build configuration list for PBXProject "DJ" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 0;
+			mainGroup = 637D00760C181C2A00153826;
+			productRefGroup = 637D00760C181C2A00153826;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6348EF6411EC3CA400DF2F13 /* Products */;
+					ProjectRef = 6348EF6311EC3CA400DF2F13 /* dsound.xcodeproj */;
+				},
+				{
+					ProductGroup = 6348F1C111ECB3ED00DF2F13 /* Products */;
+					ProjectRef = 6348EF3611EC3AF900DF2F13 /* mediatag.xcodeproj */;
+				},
+				{
+					ProductGroup = 634AEB9511ECB5F20093DD99 /* Products */;
+					ProjectRef = 63B2BEEE0CB890C400DBA357 /* midiinterface.xcodeproj */;
+				},
+				{
+					ProductGroup = 6348ECBD11EB4D4200DF2F13 /* Products */;
+					ProjectRef = 6348ECBC11EB4D4200DF2F13 /* Standard.xcodeproj */;
+				},
+				{
+					ProductGroup = 634AECD011ECC3F50093DD99 /* Products */;
+					ProjectRef = 63E0E9050D154C160039888C /* timer.xcodeproj */;
+				},
+			);
+			projectRoot = ../../../..;
+			targets = (
+				63471B2C0D20FB3D009C18F6 /* DJ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6348ECC411EB4D4200DF2F13 /* Standard.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Standard.framework;
+			remoteRef = 6348ECC311EB4D4200DF2F13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6348EF6C11EC3CA400DF2F13 /* dsound.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = dsound.bundle;
+			remoteRef = 6348EF6B11EC3CA400DF2F13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6348F1C511ECB3ED00DF2F13 /* mediatag.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.objfile";
+			path = mediatag.bundle;
+			remoteRef = 6348F1C411ECB3ED00DF2F13 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		634AEB9911ECB5F20093DD99 /* midi.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.objfile";
+			path = midi.bundle;
+			remoteRef = 634AEB9811ECB5F20093DD99 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		634AECD411ECC3F50093DD99 /* timer.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.objfile";
+			path = timer.bundle;
+			remoteRef = 634AECD311ECC3F50093DD99 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63471B290D20FB3D009C18F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		634E0C500E5C3F370053AA4F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "rsync -v -v -v -a --delete ../../../../../Common/Standard/xcode/build/$CONFIGURATION/Standard.framework $BUILT_PRODUCTS_DIR/../../../..";
+		};
+		63CE10730D2245AB001B291F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			comments = "This is not currently being used.";
+			files = (
+			);
+			inputPaths = (
+				"../../../../../Common/Standard/OSX/$(CONFIGURATION)/Standard.framework/Versions/A/Standard",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(PRODUCT_NAME).app/Contents/Frameworks/Standard.framework/Versions/A/Standard",
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "rm -r $BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app/Contents/Frameworks/Standard.framework\ncp -Rfv ../../../../../Common/Standard/OSX/$CONFIGURATION/Standard.framework $BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app/Contents/Frameworks";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63471B2A0D20FB3D009C18F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6348EF6011EC3C6700DF2F13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Standard;
+			targetProxy = 6348EF5F11EC3C6700DF2F13 /* PBXContainerItemProxy */;
+		};
+		6348EF6E11EC3CAA00DF2F13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = dsound;
+			targetProxy = 6348EF6D11EC3CAA00DF2F13 /* PBXContainerItemProxy */;
+		};
+		6348F1C811ECB44D00DF2F13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = bundle;
+			targetProxy = 6348F1C711ECB44D00DF2F13 /* PBXContainerItemProxy */;
+		};
+		634AEB9B11ECB6430093DD99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = obj;
+			targetProxy = 634AEB9A11ECB6430093DD99 /* PBXContainerItemProxy */;
+		};
+		634AECD611ECC4000093DD99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = bundle;
+			targetProxy = 634AECD511ECC4000093DD99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63471B300D20FB3D009C18F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Common/Standard/OSX/Debug\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "DJ-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		63471B310D20FB3D009C18F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Common/Standard/OSX/Debug\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "DJ-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		637D007A0C181C2A00153826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "../../../../Common/Standard/OSX/$(CONFIGURATION)";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = DJ;
+			};
+			name = Debug;
+		};
+		637D007B0C181C2A00153826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "../../../../Common/Standard/OSX/$(CONFIGURATION)";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = DJ;
+			};
+			name = Release;
+		};
+		637F26110D8B4DCD00C29C57 /* Release-Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "../../../../Common/Standard/OSX/$(CONFIGURATION)";
+				GENERATE_PROFILING_CODE = YES;
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = DJ;
+			};
+			name = "Release-Profile";
+		};
+		637F26120D8B4DCD00C29C57 /* Release-Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Common/Standard/OSX/Debug\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "DJ-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = "Release-Profile";
+		};
+		63F4AC810D94B55F0075442C /* Debug-Ruby_debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "../../../../Common/Standard/OSX/$(CONFIGURATION)";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = DJ;
+			};
+			name = "Debug-Ruby_debug";
+		};
+		63F4AC820D94B55F0075442C /* Debug-Ruby_debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Common/Standard/OSX/Debug\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "DJ-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = "Debug-Ruby_debug";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63471B320D20FB3E009C18F6 /* Build configuration list for PBXNativeTarget "DJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63471B300D20FB3D009C18F6 /* Debug */,
+				63F4AC820D94B55F0075442C /* Debug-Ruby_debug */,
+				63471B310D20FB3D009C18F6 /* Release */,
+				637F26120D8B4DCD00C29C57 /* Release-Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637D00790C181C2A00153826 /* Build configuration list for PBXProject "DJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637D007A0C181C2A00153826 /* Debug */,
+				63F4AC810D94B55F0075442C /* Debug-Ruby_debug */,
+				637D007B0C181C2A00153826 /* Release */,
+				637F26110D8B4DCD00C29C57 /* Release-Profile */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 637D00780C181C2A00153826 /* Project object */;
+}

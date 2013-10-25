@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BD0D49A2-D096-4A0A-9869-4499AB5090BD}</ProjectGuid>
+    <RootNamespace>RSE1</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccAuxPath />
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\$(Configuration)\</IntDir>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/EHa /vmg %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..;../../../../../api;$(ProjectDir);../../../../Common/Standard/src;../../../../Common/Standard/src/Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_USRDLL;RSE_API=__declspec(dllexport);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;dxerr9.lib;fmodvc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <OutputFile>$(OutDir)$(ProjectName)_d.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../../../../../api/fmod/fmodapi374win/api/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libci.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <DelayLoadDLLs>fmod.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(ProjectName).pdb</ProgramDatabaseFile>
+      <OptimizeReferences>false</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/EHa /vmg %(AdditionalOptions)</AdditionalOptions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..;../../../../../api;$(ProjectDir);../../../../Common/Standard/src;../../../../Common/Standard/src/Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_USRDLL;RSE_API=__declspec(dllexport);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;dxerr9.lib;fmodvc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../../../../api/fmod/fmodapi374win/api/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libci.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <DelayLoadDLLs>fmod.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StripPrivateSymbols>$(ProjectName)</StripPrivateSymbols>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AppBase.cpp" />
+    <ClCompile Include="RSE.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PathResource.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SingletonDefine.cpp" />
+    <ClCompile Include="Terrain\TerrainDB.cpp" />
+    <ClCompile Include="Physics\PhysCylinderAA.cpp" />
+    <ClCompile Include="Physics\PhysicsMgr.cpp" />
+    <ClCompile Include="Physics\PhysicsObject.cpp" />
+    <ClCompile Include="Physics\PhysPlane.cpp" />
+    <ClCompile Include="Physics\PhysRay.cpp" />
+    <ClCompile Include="Physics\PhysSphere.cpp" />
+    <ClCompile Include="Ui\Dialog.cpp" />
+    <ClCompile Include="Ui\DialogFrame.cpp" />
+    <ClCompile Include="Ui\DialogMgr.cpp" />
+    <ClCompile Include="Ui\DragHelper.cpp" />
+    <ClCompile Include="Ui\DragHelper3D.cpp" />
+    <ClCompile Include="Ui\UIElement.cpp" />
+    <ClCompile Include="Ui\UIHelp.cpp" />
+    <ClCompile Include="Ui\UILayout.cpp" />
+    <ClCompile Include="Ui\Controls\EditableProperties.cpp" />
+    <ClCompile Include="Ui\Controls\PlaceableControl.cpp" />
+    <ClCompile Include="Ui\Controls\ScrollingContainer.cpp" />
+    <ClCompile Include="Ui\Controls\UIButton.cpp" />
+    <ClCompile Include="Ui\Controls\UICombo.cpp" />
+    <ClCompile Include="Ui\Controls\UIKeyboardMenu.cpp" />
+    <ClCompile Include="Ui\Controls\UIListView.cpp" />
+    <ClCompile Include="Ui\Controls\UIMenu.cpp" />
+    <ClCompile Include="Ui\Controls\UIPic.cpp" />
+    <ClCompile Include="Ui\Controls\UIPropertyEditor.cpp" />
+    <ClCompile Include="Ui\Controls\UIScrollBar.cpp" />
+    <ClCompile Include="Ui\Controls\UIShuttle.cpp" />
+    <ClCompile Include="Ui\Controls\UITextBox.cpp" />
+    <ClCompile Include="Ui\Controls\UITooltip.cpp" />
+    <ClCompile Include="Ui\Controls\UIValueSlider.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgAnimTest.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgCollideTest.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgDebug.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgDebugLevel.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgDefaultOptions.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgFatal.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgMessageBox.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgObjProperties.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgParticles.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgParticlesTest.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgPhysTest.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgProfile.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgRayTest.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgSplineTest.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgSpriteFX.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgStandard.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgStandardLevel.cpp" />
+    <ClCompile Include="Ui\Dialogs\DlgTileEditor.cpp" />
+    <ClCompile Include="Ui\Editor\DlgEditor.cpp" />
+    <ClCompile Include="Ui\Editor\UIEditHandle.cpp" />
+    <ClCompile Include="Ui\Transitions\TransitionFade.cpp" />
+    <ClCompile Include="Ui\Transitions\TransitionManager.cpp" />
+    <ClCompile Include="Ui\Transitions\TransitionPieces.cpp" />
+    <ClCompile Include="Ui\Transitions\UITransition.cpp" />
+    <ClCompile Include="Ui\Styles\UIStyle.cpp" />
+    <ClCompile Include="Game\Database2D.cpp" />
+    <ClCompile Include="Game\Level.cpp" />
+    <ClCompile Include="Game\Object.cpp" />
+    <ClCompile Include="Game\ObjectComposite.cpp" />
+    <ClCompile Include="Game\ObjectMgr.cpp" />
+    <ClCompile Include="Game\ObjectQuadtree.cpp" />
+    <ClCompile Include="Game\Sprite.cpp" />
+    <ClCompile Include="Game\SpriteFX.cpp" />
+    <ClCompile Include="Game\SpriteFXClasses.cpp" />
+    <ClCompile Include="Game\SpriteLayered.cpp" />
+    <ClCompile Include="Game\TextureAnimatorLayered.cpp" />
+    <ClCompile Include="Render\Animation.cpp" />
+    <ClCompile Include="Render\BillBoarder.cpp" />
+    <ClCompile Include="Render\Camera.cpp" />
+    <ClCompile Include="Render\D3DPainter.cpp" />
+    <ClCompile Include="Render\FontElement.cpp" />
+    <ClCompile Include="Render\FontElementSystem.cpp" />
+    <ClCompile Include="Render\FontElementTexture.cpp" />
+    <ClCompile Include="Render\MeshObject.cpp" />
+    <ClCompile Include="Render\OSWindow.cpp" />
+    <ClCompile Include="Render\ParticleEmitter.cpp" />
+    <ClCompile Include="Render\ParticleFactory.cpp" />
+    <ClCompile Include="Render\ParticleRenderer.cpp" />
+    <ClCompile Include="Render\ParticleSystem.cpp" />
+    <ClCompile Include="Render\RenderContext.cpp" />
+    <ClCompile Include="Render\Scene.cpp" />
+    <ClCompile Include="Render\SDeviceD3D.cpp" />
+    <ClCompile Include="Render\SFont.cpp" />
+    <ClCompile Include="Render\SkelMesh.cpp" />
+    <ClCompile Include="Render\SplitImage.cpp" />
+    <ClCompile Include="Render\TextureAnimationManager.cpp" />
+    <ClCompile Include="Render\TextureAnimationTypes.cpp" />
+    <ClCompile Include="Render\TextureAnimator.cpp" />
+    <ClCompile Include="Render\VertexBuffer.cpp" />
+    <ClCompile Include="Render\Materials\Material.cpp" />
+    <ClCompile Include="Render\Materials\MaterialAnimation.cpp" />
+    <ClCompile Include="Render\Materials\MaterialSolid.cpp" />
+    <ClCompile Include="Render\Materials\MaterialTexture.cpp" />
+    <ClCompile Include="Render\Materials\MaterialTextureBase.cpp" />
+    <ClCompile Include="Sound\MusicManager.cpp" />
+    <ClCompile Include="Sound\SoundListener.cpp" />
+    <ClCompile Include="Sound\Fmod\FMODMusic.cpp" />
+    <ClCompile Include="Sound\Fmod\FMODProvider.cpp" />
+    <ClCompile Include="Sound\Fmod\FMODSample.cpp" />
+    <ClCompile Include="Sound\Fmod\FMODSampleInstance.cpp" />
+    <ClCompile Include="Exception\ExceptionVideo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppBase.h" />
+    <ClInclude Include="RSE.h" />
+    <ClInclude Include="PathResource.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Terrain\TerrainDB.h" />
+    <ClInclude Include="Physics\PhysCylinderAA.h" />
+    <ClInclude Include="Physics\PhysicsMgr.h" />
+    <ClInclude Include="Physics\PhysicsObject.h" />
+    <ClInclude Include="Physics\PhysPlane.h" />
+    <ClInclude Include="Physics\PhysRay.h" />
+    <ClInclude Include="Physics\PhysSphere.h" />
+    <ClInclude Include="Ui\Dialog.h" />
+    <ClInclude Include="Ui\DialogFrame.h" />
+    <ClInclude Include="Ui\DialogMgr.h" />
+    <ClInclude Include="Ui\DragHelper.h" />
+    <ClInclude Include="Ui\DragHelper3D.h" />
+    <ClInclude Include="Ui\UIElement.h" />
+    <ClInclude Include="Ui\UIHelp.h" />
+    <ClInclude Include="Ui\UILayout.h" />
+    <ClInclude Include="Ui\Controls\ControlForwards.h" />
+    <ClInclude Include="Ui\Controls\EditableProperties.h" />
+    <ClInclude Include="Ui\Controls\PlaceableControl.h" />
+    <ClInclude Include="Ui\Controls\ScrollingContainer.h" />
+    <ClInclude Include="Ui\Controls\UIButton.h" />
+    <ClInclude Include="Ui\Controls\UICombo.h" />
+    <ClInclude Include="Ui\Controls\UIKeyboardMenu.h" />
+    <ClInclude Include="Ui\Controls\UIListView.h" />
+    <ClInclude Include="Ui\Controls\UIMenu.h" />
+    <ClInclude Include="Ui\Controls\UIPic.h" />
+    <ClInclude Include="Ui\Controls\UIPropertyEditor.h" />
+    <ClInclude Include="Ui\Controls\UIScrollBar.h" />
+    <ClInclude Include="Ui\Controls\UIShuttle.h" />
+    <ClInclude Include="Ui\Controls\UITextBox.h" />
+    <ClInclude Include="Ui\Controls\UITooltip.h" />
+    <ClInclude Include="Ui\Controls\UIValueSlider.h" />
+    <ClInclude Include="Ui\Dialogs\DlgAnimTest.h" />
+    <ClInclude Include="Ui\Dialogs\DlgCollideTest.h" />
+    <ClInclude Include="Ui\Dialogs\DlgDebug.h" />
+    <ClInclude Include="Ui\Dialogs\DlgDebugLevel.h" />
+    <ClInclude Include="Ui\Dialogs\DlgDefaultOptions.h" />
+    <ClInclude Include="Ui\Dialogs\DlgFatal.h" />
+    <ClInclude Include="Ui\Dialogs\DlgMessageBox.h" />
+    <ClInclude Include="Ui\Dialogs\DlgObjProperties.h" />
+    <ClInclude Include="Ui\Dialogs\DlgParticles.h" />
+    <ClInclude Include="Ui\Dialogs\DlgParticlesTest.h" />
+    <ClInclude Include="Ui\Dialogs\DlgPhysTest.h" />
+    <ClInclude Include="Ui\Dialogs\DlgProfile.h" />
+    <ClInclude Include="Ui\Dialogs\DlgRayTest.h" />
+    <ClInclude Include="Ui\Dialogs\DlgSplineTest.h" />
+    <ClInclude Include="Ui\Dialogs\DlgSpriteFX.h" />
+    <ClInclude Include="Ui\Dialogs\DlgStandard.h" />
+    <ClInclude Include="Ui\Dialogs\DlgStandardLevel.h" />
+    <ClInclude Include="Ui\Dialogs\DlgTileEditor.h" />
+    <ClInclude Include="Ui\Editor\DlgEditor.h" />
+    <ClInclude Include="Ui\Editor\UIEditHandle.h" />
+    <ClInclude Include="Ui\Transitions\TransitionFade.h" />
+    <ClInclude Include="Ui\Transitions\TransitionManager.h" />
+    <ClInclude Include="Ui\Transitions\TransitionPieces.h" />
+    <ClInclude Include="Ui\Transitions\UITransition.h" />
+    <ClInclude Include="Ui\Styles\UIStyle.h" />
+    <ClInclude Include="Game\Database2D.h" />
+    <ClInclude Include="Game\Level.h" />
+    <ClInclude Include="Game\Object.h" />
+    <ClInclude Include="Game\ObjectComposite.h" />
+    <ClInclude Include="Game\ObjectMgr.h" />
+    <ClInclude Include="Game\ObjectQuadtree.h" />
+    <ClInclude Include="Game\Sprite.h" />
+    <ClInclude Include="Game\SpriteFX.h" />
+    <ClInclude Include="Game\SpriteFXClasses.h" />
+    <ClInclude Include="Game\SpriteLayered.h" />
+    <ClInclude Include="Game\TextureAnimatorLayered.h" />
+    <ClInclude Include="Render\Animation.h" />
+    <ClInclude Include="Render\BillBoarder.h" />
+    <ClInclude Include="Render\Camera.h" />
+    <ClInclude Include="Render\D3DPainter.h" />
+    <ClInclude Include="Render\FontElement.h" />
+    <ClInclude Include="Render\FontElementSystem.h" />
+    <ClInclude Include="Render\FontElementTexture.h" />
+    <ClInclude Include="Render\ID3DResource.h" />
+    <ClInclude Include="Render\MeshObject.h" />
+    <ClInclude Include="Render\OSWindow.h" />
+    <ClInclude Include="Render\Particle.h" />
+    <ClInclude Include="Render\ParticleEmitter.h" />
+    <ClInclude Include="Render\ParticleEmitterInline.h" />
+    <ClInclude Include="Render\ParticleFactory.h" />
+    <ClInclude Include="Render\ParticleRenderer.h" />
+    <ClInclude Include="Render\ParticleSystem.h" />
+    <ClInclude Include="Render\ParticleSystemInline.h" />
+    <ClInclude Include="Render\RenderContext.h" />
+    <ClInclude Include="Render\Scene.h" />
+    <ClInclude Include="Render\SDeviceD3D.h" />
+    <ClInclude Include="Render\SFont.h" />
+    <ClInclude Include="Render\SkelMesh.h" />
+    <ClInclude Include="Render\SplitImage.h" />
+    <ClInclude Include="Render\TextureAnimationManager.h" />
+    <ClInclude Include="Render\TextureAnimationTypes.h" />
+    <ClInclude Include="Render\TextureAnimator.h" />
+    <ClInclude Include="Render\TextureAnimatorInline.h" />
+    <ClInclude Include="Render\VertexBuffer.h" />
+    <ClInclude Include="Render\Materials\Material.h" />
+    <ClInclude Include="Render\Materials\MaterialAnimation.h" />
+    <ClInclude Include="Render\Materials\MaterialSolid.h" />
+    <ClInclude Include="Render\Materials\MaterialTexture.h" />
+    <ClInclude Include="Render\Materials\MaterialTextureBase.h" />
+    <ClInclude Include="Sound\IMusic.h" />
+    <ClInclude Include="Sound\ISample.h" />
+    <ClInclude Include="Sound\ISampleInstance.h" />
+    <ClInclude Include="Sound\ISoundProvider.h" />
+    <ClInclude Include="Sound\IStream.h" />
+    <ClInclude Include="Sound\MusicManager.h" />
+    <ClInclude Include="Sound\SoundListener.h" />
+    <ClInclude Include="Sound\Fmod\FMODMusic.h" />
+    <ClInclude Include="Sound\Fmod\FMODProvider.h" />
+    <ClInclude Include="Sound\Fmod\FMODSample.h" />
+    <ClInclude Include="Sound\Fmod\FMODSampleInstance.h" />
+    <ClInclude Include="Exception\DialogMgr.h" />
+    <ClInclude Include="Exception\Video.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="missing.bmp" />
+    <None Include="skull.bmp" />
+    <None Include="ui_close.bmp" />
+    <None Include="ui_os_window.bmp" />
+    <None Include="check.tga" />
+    <None Include="dropdown.tga" />
+    <None Include="pointer.tga" />
+    <None Include="ReadMe.txt" />
+    <None Include="..\..\media\ui\keyboardmenu\rightarrow.tga" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Common\Standard\msvc\Standard.vcxproj">
+      <Project>{2e78289f-5146-4b49-81c3-8a9255523922}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

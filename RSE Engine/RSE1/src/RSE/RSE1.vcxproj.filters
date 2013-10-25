@@ -1,0 +1,755 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Terrain">
+      <UniqueIdentifier>{6779f572-51ad-4123-8e8c-39615ecb235d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{f045c40a-bb74-437b-8e56-248b13ca0fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{2492fa37-e72a-40b3-be0a-56547a8e3178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Controls">
+      <UniqueIdentifier>{c1d22f28-e426-434e-9e4c-f5c87d53bcd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Dialogs">
+      <UniqueIdentifier>{5fc0e040-c32e-48fd-8315-622fba799dc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Editor">
+      <UniqueIdentifier>{926d9c07-4c92-448e-a4af-09b219619c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Transitions">
+      <UniqueIdentifier>{08ac6de9-71fd-4bb1-a9b6-b72e0faadabf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Styles">
+      <UniqueIdentifier>{ed09d157-8d12-43fc-969b-9fea82c5bb07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{5b96433d-2b04-4d77-8581-04fe5f293a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render">
+      <UniqueIdentifier>{bfbe1cbf-1c17-40c6-b3bd-495a2e87b2b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render\Materials">
+      <UniqueIdentifier>{fb3b0408-8ce2-4e13-967b-c15e25c081a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{a08a6382-3d9d-4def-9afd-04cc1998a0e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound\FMOD">
+      <UniqueIdentifier>{b1bb53a5-888c-42ae-a6a0-0265636bb43e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exception">
+      <UniqueIdentifier>{15c67d9a-5b98-43a5-ad56-954c1c8f05bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RSE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PathResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SingletonDefine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\TerrainDB.cpp">
+      <Filter>Source Files\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\PhysCylinderAA.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\PhysicsMgr.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\PhysicsObject.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\PhysPlane.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\PhysRay.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\PhysSphere.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialog.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\DialogFrame.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\DialogMgr.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\DragHelper.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\DragHelper3D.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UIElement.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UIHelp.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\UILayout.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Controls\EditableProperties.cpp">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Controls\PlaceableControl.cpp">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Controls\ScrollingContainer.cpp">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Controls\UIButton.cpp">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Controls\UICombo.cpp">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Controls\UIKeyboardMenu.cpp">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Controls\UIListView.cpp">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Controls\UIMenu.cpp">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Controls\UIPic.cpp">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Controls\UIPropertyEditor.cpp">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Controls\UIScrollBar.cpp">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Controls\UIShuttle.cpp">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Controls\UITextBox.cpp">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Controls\UITooltip.cpp">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Controls\UIValueSlider.cpp">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgAnimTest.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgCollideTest.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgDebug.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgDebugLevel.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgDefaultOptions.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgFatal.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgMessageBox.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgObjProperties.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgParticles.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgParticlesTest.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgPhysTest.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgProfile.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgRayTest.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgSplineTest.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgSpriteFX.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgStandard.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgStandardLevel.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Dialogs\DlgTileEditor.cpp">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Editor\DlgEditor.cpp">
+      <Filter>Source Files\UI\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Editor\UIEditHandle.cpp">
+      <Filter>Source Files\UI\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Transitions\TransitionFade.cpp">
+      <Filter>Source Files\UI\Transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Transitions\TransitionManager.cpp">
+      <Filter>Source Files\UI\Transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Transitions\TransitionPieces.cpp">
+      <Filter>Source Files\UI\Transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Transitions\UITransition.cpp">
+      <Filter>Source Files\UI\Transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\Styles\UIStyle.cpp">
+      <Filter>Source Files\UI\Styles</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Database2D.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ObjectComposite.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ObjectMgr.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ObjectQuadtree.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Sprite.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SpriteFX.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SpriteFXClasses.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SpriteLayered.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TextureAnimatorLayered.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Animation.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\BillBoarder.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Camera.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\D3DPainter.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FontElement.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FontElementSystem.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FontElementTexture.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\MeshObject.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\OSWindow.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\ParticleEmitter.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\ParticleFactory.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\ParticleRenderer.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\ParticleSystem.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\RenderContext.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Scene.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\SDeviceD3D.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\SFont.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\SkelMesh.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\SplitImage.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\TextureAnimationManager.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\TextureAnimationTypes.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\TextureAnimator.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\VertexBuffer.cpp">
+      <Filter>Source Files\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Materials\Material.cpp">
+      <Filter>Source Files\Render\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Materials\MaterialAnimation.cpp">
+      <Filter>Source Files\Render\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Materials\MaterialSolid.cpp">
+      <Filter>Source Files\Render\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Materials\MaterialTexture.cpp">
+      <Filter>Source Files\Render\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Materials\MaterialTextureBase.cpp">
+      <Filter>Source Files\Render\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\MusicManager.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundListener.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Fmod\FMODMusic.cpp">
+      <Filter>Source Files\Sound\FMOD</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Fmod\FMODProvider.cpp">
+      <Filter>Source Files\Sound\FMOD</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Fmod\FMODSample.cpp">
+      <Filter>Source Files\Sound\FMOD</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Fmod\FMODSampleInstance.cpp">
+      <Filter>Source Files\Sound\FMOD</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception\ExceptionVideo.cpp">
+      <Filter>Source Files\Exception</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppBase.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RSE.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PathResource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\TerrainDB.h">
+      <Filter>Source Files\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\PhysCylinderAA.h">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\PhysicsMgr.h">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\PhysicsObject.h">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\PhysPlane.h">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\PhysRay.h">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\PhysSphere.h">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialog.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\DialogFrame.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\DialogMgr.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\DragHelper.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\DragHelper3D.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UIElement.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UIHelp.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\UILayout.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\ControlForwards.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\EditableProperties.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\PlaceableControl.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\ScrollingContainer.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\UIButton.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\UICombo.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\UIKeyboardMenu.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\UIListView.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\UIMenu.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\UIPic.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\UIPropertyEditor.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\UIScrollBar.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\UIShuttle.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\UITextBox.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\UITooltip.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Controls\UIValueSlider.h">
+      <Filter>Source Files\UI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgAnimTest.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgCollideTest.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgDebug.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgDebugLevel.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgDefaultOptions.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgFatal.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgMessageBox.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgObjProperties.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgParticles.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgParticlesTest.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgPhysTest.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgProfile.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgRayTest.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgSplineTest.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgSpriteFX.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgStandard.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgStandardLevel.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Dialogs\DlgTileEditor.h">
+      <Filter>Source Files\UI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Editor\DlgEditor.h">
+      <Filter>Source Files\UI\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Editor\UIEditHandle.h">
+      <Filter>Source Files\UI\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Transitions\TransitionFade.h">
+      <Filter>Source Files\UI\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Transitions\TransitionManager.h">
+      <Filter>Source Files\UI\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Transitions\TransitionPieces.h">
+      <Filter>Source Files\UI\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Transitions\UITransition.h">
+      <Filter>Source Files\UI\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Ui\Styles\UIStyle.h">
+      <Filter>Source Files\UI\Styles</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Database2D.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ObjectComposite.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ObjectMgr.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ObjectQuadtree.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Sprite.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SpriteFX.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SpriteFXClasses.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SpriteLayered.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TextureAnimatorLayered.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Animation.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\BillBoarder.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Camera.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\D3DPainter.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FontElement.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FontElementSystem.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FontElementTexture.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\ID3DResource.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\MeshObject.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\OSWindow.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Particle.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\ParticleEmitter.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\ParticleEmitterInline.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\ParticleFactory.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\ParticleRenderer.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\ParticleSystem.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\ParticleSystemInline.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\RenderContext.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Scene.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\SDeviceD3D.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\SFont.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\SkelMesh.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\SplitImage.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\TextureAnimationManager.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\TextureAnimationTypes.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\TextureAnimator.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\TextureAnimatorInline.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\VertexBuffer.h">
+      <Filter>Source Files\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Materials\Material.h">
+      <Filter>Source Files\Render\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Materials\MaterialAnimation.h">
+      <Filter>Source Files\Render\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Materials\MaterialSolid.h">
+      <Filter>Source Files\Render\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Materials\MaterialTexture.h">
+      <Filter>Source Files\Render\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Materials\MaterialTextureBase.h">
+      <Filter>Source Files\Render\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\IMusic.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\ISample.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\ISampleInstance.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\ISoundProvider.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\IStream.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\MusicManager.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundListener.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Fmod\FMODMusic.h">
+      <Filter>Source Files\Sound\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Fmod\FMODProvider.h">
+      <Filter>Source Files\Sound\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Fmod\FMODSample.h">
+      <Filter>Source Files\Sound\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Fmod\FMODSampleInstance.h">
+      <Filter>Source Files\Sound\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception\DialogMgr.h">
+      <Filter>Source Files\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception\Video.h">
+      <Filter>Source Files\Exception</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="missing.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="skull.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui_close.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ui_os_window.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="check.tga" />
+    <None Include="dropdown.tga" />
+    <None Include="pointer.tga" />
+    <None Include="ReadMe.txt" />
+    <None Include="..\..\media\ui\keyboardmenu\rightarrow.tga" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

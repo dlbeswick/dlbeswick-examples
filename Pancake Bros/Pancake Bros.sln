@@ -1,0 +1,68 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pancake Bros", "src\Pancake Bros.vcxproj", "{4DF6D0A1-D060-49BD-8CBD-FB1F9FCF165C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Standard", "..\Common\Standard\msvc\Standard.vcxproj", "{2E78289F-5146-4B49-81C3-8A9255523922}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RSE1", "..\RSE Engine\RSE1\src\RSE\RSE1.vcxproj", "{BD0D49A2-D096-4A0A-9869-4499AB5090BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Static|Win32 = Debug Static|Win32
+		Debug_Ruby|Win32 = Debug_Ruby|Win32
+		Debug|Win32 = Debug|Win32
+		Release Static|Win32 = Release Static|Win32
+		Release_Ruby|Win32 = Release_Ruby|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DF6D0A1-D060-49BD-8CBD-FB1F9FCF165C}.Debug Static|Win32.ActiveCfg = Debug|Win32
+		{4DF6D0A1-D060-49BD-8CBD-FB1F9FCF165C}.Debug_Ruby|Win32.ActiveCfg = Debug|Win32
+		{4DF6D0A1-D060-49BD-8CBD-FB1F9FCF165C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4DF6D0A1-D060-49BD-8CBD-FB1F9FCF165C}.Debug|Win32.Build.0 = Debug|Win32
+		{4DF6D0A1-D060-49BD-8CBD-FB1F9FCF165C}.Release Static|Win32.ActiveCfg = Release|Win32
+		{4DF6D0A1-D060-49BD-8CBD-FB1F9FCF165C}.Release_Ruby|Win32.ActiveCfg = Release|Win32
+		{4DF6D0A1-D060-49BD-8CBD-FB1F9FCF165C}.Release|Win32.ActiveCfg = Release|Win32
+		{4DF6D0A1-D060-49BD-8CBD-FB1F9FCF165C}.Release|Win32.Build.0 = Release|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Debug Static|Win32.ActiveCfg = Debug Static|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Debug_Ruby|Win32.ActiveCfg = Debug_Ruby|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Debug|Win32.Build.0 = Debug|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Release Static|Win32.ActiveCfg = Release Static|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Release_Ruby|Win32.ActiveCfg = Release_Ruby|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Release|Win32.ActiveCfg = Release|Win32
+		{2E78289F-5146-4B49-81C3-8A9255523922}.Release|Win32.Build.0 = Release|Win32
+		{BD0D49A2-D096-4A0A-9869-4499AB5090BD}.Debug Static|Win32.ActiveCfg = Debug|Win32
+		{BD0D49A2-D096-4A0A-9869-4499AB5090BD}.Debug Static|Win32.Build.0 = Debug|Win32
+		{BD0D49A2-D096-4A0A-9869-4499AB5090BD}.Debug_Ruby|Win32.ActiveCfg = Debug|Win32
+		{BD0D49A2-D096-4A0A-9869-4499AB5090BD}.Debug_Ruby|Win32.Build.0 = Debug|Win32
+		{BD0D49A2-D096-4A0A-9869-4499AB5090BD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD0D49A2-D096-4A0A-9869-4499AB5090BD}.Debug|Win32.Build.0 = Debug|Win32
+		{BD0D49A2-D096-4A0A-9869-4499AB5090BD}.Release Static|Win32.ActiveCfg = Release|Win32
+		{BD0D49A2-D096-4A0A-9869-4499AB5090BD}.Release Static|Win32.Build.0 = Release|Win32
+		{BD0D49A2-D096-4A0A-9869-4499AB5090BD}.Release_Ruby|Win32.ActiveCfg = Release|Win32
+		{BD0D49A2-D096-4A0A-9869-4499AB5090BD}.Release_Ruby|Win32.Build.0 = Release|Win32
+		{BD0D49A2-D096-4A0A-9869-4499AB5090BD}.Release|Win32.ActiveCfg = Release|Win32
+		{BD0D49A2-D096-4A0A-9869-4499AB5090BD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccLocalPath0 = .
+		CanCheckoutShared = true
+		SolutionUniqueID = {EB79573D-2DD0-4B4D-BF1D-28F3077EDE8B}
+		SccProjectUniqueName1 = src\\Pancake\u0020Bros.vcproj
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = src\\
+		SccProjectUniqueName2 = ..\\Common\\Standard\\msvc\\Standard.vcproj
+		SccLocalPath2 = ..\\Common\\Standard
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection2 = msvc\\
+		SccProjectUniqueName3 = ..\\RSE\u0020Engine\\RSE1\\src\\RSE\\RSE1.vcproj
+		SccLocalPath3 = ..\\RSE\u0020Engine\\RSE1\\src\\RSE
+		CanCheckoutShared = true
+	EndGlobalSection
+EndGlobal

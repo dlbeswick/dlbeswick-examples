@@ -1,0 +1,8 @@
+apt://universe/ruby1.9.1
+apt://universe/sqlite3
+apt://universe/libsqlite3-dev
+ruby/std/midiinterface
+ruby/std/mediatag
+ruby/std/dsound
+ruby/std/timer
+ruby/std

@@ -1,0 +1,11 @@
+apt://universe/g++
+apt://universe/libstdc++6
+apt://universe/libflac++-dev
+apt://universe/libmp3lame-dev
+apt://universe/libmad0-dev
+apt://universe/portaudio19-dev
+apt://universe/libsndfile-dev
+apt://universe/libsox-dev
+apt://universe/swig2.0
+apt://universe/ruby1.9.1-dev
+Common/Standard

@@ -1,0 +1,53 @@
+AC_CANONICAL_HOST
+
+dnl Macros
+
+dlb_config_subdirs=""
+
+AC_DEFUN([DLB_CONFIG_SUBDIR],
+	[AC_CONFIG_SUBDIRS([$1])
+	dlb_config_subdirs="$dlb_config_subdirs $1"]
+)
+
+dlb_configure_libs=""
+
+AC_DEFUN([DLB_REQUIRE_LIB],
+	[AS_IF(
+		[test x$with_$1 != xno],
+		[AC_HAVE_LIBRARY(
+			[$1],
+			[
+				AC_DEFINE([WITH_]m4_toupper([$1]), [1], [])
+			 	dlb_configure_libs="$dlb_configure_libs -l$1"
+			],
+			AC_MSG_FAILURE([$1][ not found.])
+		)]
+	)]
+)
+
+dnl Tests
+
+AC_MSG_CHECKING([platform for project & 'Standard'])
+
+AS_IF([test $(AS_ECHO_N($host_os) | grep -i Linux)], [LINUX=1])
+
+AM_CONDITIONAL([LINUX], [test $LINUX])
+
+AS_IF([test $LINUX],
+	[dlb_platform=Linux ;
+   	dlb_standard_platform=Posix],
+	[dlb_platform=Windows ;
+	dlb_standard_platform=Windows]
+)
+
+AC_MSG_RESULT([$platform & $standard_platform])
+
+dnl Subst
+
+AC_SUBST([platform],["$dlb_platform"]) dnl deprecate
+AC_SUBST([standard_platform],["$dlb_standard_platform"]) dnl deprecate
+AC_SUBST([dlb_platform])
+AC_SUBST([dlb_platform_tolower],[[$(echo "$dlb_platform" | tr '[:upper:]' '[:lower:]')]])
+AC_SUBST([dlb_standard_platform])
+AC_SUBST([dlb_config_subdirs])
+AC_SUBST([dlb_configure_libs])

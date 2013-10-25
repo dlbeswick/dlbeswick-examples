@@ -1,0 +1,4 @@
+apt://universe/libjack-dev
+apt://universe/ruby1.9.1-dev
+apt://universe/swig2.0
+Common/Standard

@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug Static|Win32">
+      <Configuration>Debug Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Ruby|Win32">
+      <Configuration>Debug_Ruby</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Static|Win32">
+      <Configuration>Release Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Ruby|Win32">
+      <Configuration>Release_Ruby</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2E78289F-5146-4B49-81C3-8A9255523922}</ProjectGuid>
+    <RootNamespace>Standard</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccAuxPath />
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Ruby|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Ruby|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Ruby|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Ruby|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_Ruby|Win32'">Windows\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_Ruby|Win32'">Windows\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release_Ruby|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_Ruby|Win32'">Windows\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_Ruby|Win32'">Windows\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">Windows\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">Windows\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">Windows\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">Windows\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Windows\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Windows\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Windows\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Windows\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Ruby|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/EHa /vmg %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\..\..\API\ruby-1.8.6;..\src;..\src\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG_USRDLL;STANDARD_API=_declspec(dllexport);%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Standard/pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(Configuration)\$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/delayload:dbghelp.dll %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>dinput8.lib;dxguid.lib;winmm.lib;dbghelp.lib;delayimp.lib;dxerr9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\API\ruby-1.8.6\win32;c:\ruby\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libcd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StripPrivateSymbols>$(ProjectName).pdb</StripPrivateSymbols>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Ruby|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/EHa /vmg %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\API\ruby-1.8.6;..\src;..\src\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_USRDLL;STANDARD_API=_declspec(dllexport);%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Standard/pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(Configuration)\$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/delayload:dbghelp.dll %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>dinput8.lib;dxguid.lib;winmm.lib;dbghelp.lib;delayimp.lib;dxerr9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <OutputFile>$(OutDir)$(ProjectName)_d.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\..\API\ruby-1.8.6\win32;c:\ruby\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>libcd.lib msvcrtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>false</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+      <SupportUnloadOfDelayLoadedDLL>false</SupportUnloadOfDelayLoadedDLL>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/EHa /vmg %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\API\ruby-1.8.6;..\src;..\src\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_USRDLL;STANDARD_STATIC;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Standard/pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(Configuration)\$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)_static_d.lib</OutputFile>
+    </Lib>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/EHa /vmg %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\..\..\API\ruby-1.8.6;..\src;..\src\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG_USRDLL;STANDARD_STATIC;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Standard/pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(Configuration)\$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)_static.lib</OutputFile>
+    </Lib>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/EHa /vmg %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\API\ruby-1.8.6;..\src;..\src\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_USRDLL;STANDARD_API=_declspec(dllexport);STANDARD_NORUBY;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Standard/pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(Configuration)\$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/delayload:dbghelp.dll %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>dinput8.lib;dxguid.lib;winmm.lib;dbghelp.lib;delayimp.lib;dxerr9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <OutputFile>$(OutDir)$(ProjectName)_d.dll</OutputFile>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>libcd.lib msvcrtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>false</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+      <SupportUnloadOfDelayLoadedDLL>false</SupportUnloadOfDelayLoadedDLL>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/EHa /vmg %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\..\..\API\ruby-1.8.6;..\src;..\src\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_USRDLL;STANDARD_API=_declspec(dllexport);STANDARD_NORUBY;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Standard/pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(Configuration)\$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/delayload:dbghelp.dll %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>dinput8.lib;dxguid.lib;winmm.lib;dbghelp.lib;delayimp.lib;dxerr9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libcd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <DelayLoadDLLs>%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StripPrivateSymbols>$(ProjectName).pdb</StripPrivateSymbols>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Standard\Algebra.h" />
+    <ClInclude Include="..\src\Standard\api.h" />
+    <ClInclude Include="..\src\Standard\Base.h" />
+    <ClInclude Include="..\src\Standard\binstream.h" />
+    <ClInclude Include="..\src\Standard\CircularBuffer.h" />
+    <ClInclude Include="..\src\Standard\CMemCheck.h" />
+    <ClInclude Include="..\src\Standard\Collide.h" />
+    <ClInclude Include="..\src\Standard\CommandLine.h" />
+    <ClInclude Include="..\src\Standard\Config.h" />
+    <ClInclude Include="..\src\Standard\ConfigService.h" />
+    <ClInclude Include="..\src\Standard\Counter.h" />
+    <ClInclude Include="..\src\Standard\CriticalSectionBlock.h" />
+    <ClInclude Include="..\src\Standard\D3DHelp.h" />
+    <ClInclude Include="..\src\Standard\Delegate.h" />
+    <ClInclude Include="..\src\Standard\Dirty.h" />
+    <ClInclude Include="..\src\Standard\EmbeddedPtr.h" />
+    <ClInclude Include="..\src\Standard\Exception.h" />
+    <ClInclude Include="..\src\Standard\ExceptionStream.h" />
+    <ClInclude Include="..\src\Standard\FileHelp.h" />
+    <ClInclude Include="..\src\Standard\FileMgr.h" />
+    <ClInclude Include="..\src\Standard\Filesystem.h" />
+    <ClInclude Include="..\src\Standard\Help.h" />
+    <ClInclude Include="..\src\Standard\Image.h" />
+    <ClInclude Include="..\src\Standard\Interpolation.h" />
+    <ClInclude Include="..\src\Standard\Lazy.h" />
+    <ClInclude Include="..\src\Standard\Lockable.h" />
+    <ClInclude Include="..\src\Standard\Log.h" />
+    <ClInclude Include="..\src\Standard\Mapping.h" />
+    <ClInclude Include="..\src\Standard\Math.h" />
+    <ClInclude Include="..\src\Standard\MathHelp.h" />
+    <ClInclude Include="..\src\Standard\MultiDelegate.h" />
+    <ClInclude Include="..\src\Standard\Numerical.h" />
+    <ClInclude Include="..\src\Standard\Parser.h" />
+    <ClInclude Include="..\src\Standard\Path.h" />
+    <ClInclude Include="..\src\Standard\pch.h" />
+    <ClInclude Include="..\src\Standard\PendingList.h" />
+    <ClInclude Include="..\src\Standard\platform.h" />
+    <ClInclude Include="..\src\Standard\Predicates.h" />
+    <ClInclude Include="..\src\Standard\Profiler.h" />
+    <ClInclude Include="..\src\Standard\PtrD3D.h" />
+    <ClInclude Include="..\src\Standard\PtrGC.h" />
+    <ClInclude Include="..\src\Standard\PtrGCBase.h" />
+    <ClInclude Include="..\src\Standard\PtrGCHost.h" />
+    <ClInclude Include="..\src\Standard\PtrGCManager.h" />
+    <ClInclude Include="..\src\Standard\PtrGCRefCountMethod.h" />
+    <ClInclude Include="..\src\Standard\Rand.h" />
+    <ClInclude Include="..\src\Standard\Range.h" />
+    <ClInclude Include="..\src\Standard\RawImage.h" />
+    <ClInclude Include="..\src\Standard\Rect.h" />
+    <ClInclude Include="..\src\Standard\Registrar.h" />
+    <ClInclude Include="..\src\Standard\RTTI.h" />
+    <ClInclude Include="..\src\Standard\Ruby.h" />
+    <ClInclude Include="..\src\Standard\RubyHelp.h" />
+    <ClInclude Include="..\src\Standard\Singleton.h" />
+    <ClInclude Include="..\src\Standard\SkipList.h" />
+    <ClInclude Include="..\src\Standard\SmartPtr.h" />
+    <ClInclude Include="..\src\Standard\SortedVec.h" />
+    <ClInclude Include="..\src\Standard\Spline.h" />
+    <ClInclude Include="..\src\Standard\StateMachine.h" />
+    <ClInclude Include="..\src\Standard\SteppableThreadHost.h" />
+    <ClInclude Include="..\src\Standard\STLHelp.h" />
+    <ClInclude Include="..\src\Standard\Streamable.h" />
+    <ClInclude Include="..\src\Standard\streamops.h" />
+    <ClInclude Include="..\src\Standard\streamops_math.h" />
+    <ClInclude Include="..\src\Standard\textstream.h" />
+    <ClInclude Include="..\src\Standard\textstringstream.h" />
+    <ClInclude Include="..\src\Standard\TGA.h" />
+    <ClInclude Include="..\src\Standard\Thread.h" />
+    <ClInclude Include="..\src\Standard\ThreadBase.h" />
+    <ClInclude Include="..\src\Standard\Time.h" />
+    <ClInclude Include="..\src\Standard\TimedLog.h" />
+    <ClInclude Include="..\src\Standard\TreeNode.h" />
+    <ClInclude Include="..\src\Standard\Wavelet.h" />
+    <ClInclude Include="..\src\Windows\Standard\Alert.h" />
+    <ClInclude Include="..\src\Windows\Standard\AsyncEvent.h" />
+    <ClInclude Include="..\src\Windows\Standard\CriticalSection.h" />
+    <ClInclude Include="..\src\Windows\Standard\DebugInfo.h" />
+    <ClInclude Include="..\src\Windows\Standard\DeviceNotification.h" />
+    <ClInclude Include="..\src\Windows\Standard\dxerr.h" />
+    <ClInclude Include="..\src\Windows\Standard\DXInput.h" />
+    <ClInclude Include="..\src\Windows\Standard\ExceptionWinAPI.h" />
+    <ClInclude Include="..\src\Windows\Standard\MemoryMappedFileIterator.h" />
+    <ClInclude Include="..\src\Windows\Standard\PlatformThread.h" />
+    <ClInclude Include="..\src\Windows\Standard\STLGuid.h" />
+    <ClInclude Include="..\src\Windows\Standard\ThreadStepper.h" />
+    <ClInclude Include="..\src\Windows\Standard\Timer.h" />
+    <ClInclude Include="..\src\Standard\Exception\Base.h" />
+    <ClInclude Include="..\src\Standard\Exception\Config.h" />
+    <ClInclude Include="..\src\Standard\Exception\Filesystem.h" />
+    <ClInclude Include="..\src\Standard\Exception\StreamRTTI.h" />
+    <ClInclude Include="..\src\Standard\Exception\TextStreamParseException.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Standard\Base.cpp" />
+    <ClCompile Include="..\src\Standard\binstream.cpp" />
+    <ClCompile Include="..\src\Standard\CMemCheck.cpp" />
+    <ClCompile Include="..\src\Standard\Collide.cpp" />
+    <ClCompile Include="..\src\Standard\CommandLine.cpp" />
+    <ClCompile Include="..\src\Standard\Config.cpp" />
+    <ClCompile Include="..\src\Standard\ConfigService.cpp" />
+    <ClCompile Include="..\src\Standard\CriticalSectionBlock.cpp" />
+    <ClCompile Include="..\src\Standard\Delegate.cpp" />
+    <ClCompile Include="..\src\Standard\EmbeddedPtr.cpp" />
+    <ClCompile Include="..\src\Standard\Exception.cpp" />
+    <ClCompile Include="..\src\Standard\ExceptionFilesystem.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug_Ruby|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release_Ruby|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\Standard\ExceptionStream.cpp" />
+    <ClCompile Include="..\src\Standard\FileMgr.cpp" />
+    <ClCompile Include="..\src\Standard\Filesystem.cpp" />
+    <ClCompile Include="..\src\Standard\Help.cpp" />
+    <ClCompile Include="..\src\Standard\Image.cpp" />
+    <ClCompile Include="..\src\Standard\Log.cpp" />
+    <ClCompile Include="..\src\Standard\Math.cpp" />
+    <ClCompile Include="..\src\Standard\MultiDelegate.cpp" />
+    <ClCompile Include="..\src\Standard\Path.cpp" />
+    <ClCompile Include="..\src\Standard\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Static|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Ruby|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Static|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Ruby|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\src\Standard\Profiler.cpp" />
+    <ClCompile Include="..\src\Standard\PtrGC.cpp" />
+    <ClCompile Include="..\src\Standard\PtrGCBase.cpp" />
+    <ClCompile Include="..\src\Standard\PtrGCHost.cpp" />
+    <ClCompile Include="..\src\Standard\Rand.cpp" />
+    <ClCompile Include="..\src\Standard\Rect.cpp" />
+    <ClCompile Include="..\src\Standard\Registrar.cpp" />
+    <ClCompile Include="..\src\Standard\Ruby.cpp" />
+    <ClCompile Include="..\src\Standard\SmartPtr.cpp" />
+    <ClCompile Include="..\src\Standard\StateMachine.cpp" />
+    <ClCompile Include="..\src\Standard\stdafx.cpp" />
+    <ClCompile Include="..\src\Standard\SteppableThreadHost.cpp" />
+    <ClCompile Include="..\src\Standard\Streamable.cpp" />
+    <ClCompile Include="..\src\Standard\textstream.cpp" />
+    <ClCompile Include="..\src\Standard\TGA.cpp" />
+    <ClCompile Include="..\src\Standard\Time.cpp" />
+    <ClCompile Include="..\src\Windows\Standard\AsyncEvent.cpp" />
+    <ClCompile Include="..\src\Windows\Standard\CriticalSection.cpp" />
+    <ClCompile Include="..\src\Windows\Standard\DebugInfo.cpp" />
+    <ClCompile Include="..\src\Windows\Standard\DeviceNotification.cpp" />
+    <ClCompile Include="..\src\Windows\Standard\dxerr.cpp" />
+    <ClCompile Include="..\src\Windows\Standard\DXInput.cpp" />
+    <ClCompile Include="..\src\Windows\Standard\ExceptionWinAPI.cpp" />
+    <ClCompile Include="..\src\Windows\Standard\PlatformThread.cpp" />
+    <ClCompile Include="..\src\Windows\Standard\ThreadStepper.cpp" />
+    <ClCompile Include="..\src\Standard\Exception\ExceptionConfig.cpp" />
+    <ClCompile Include="..\src\Standard\Exception\StreamRTTI.cpp" />
+    <ClCompile Include="..\src\Standard\Exception\TextStreamParseException.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
